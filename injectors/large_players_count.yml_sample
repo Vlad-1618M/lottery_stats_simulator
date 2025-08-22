@@ -1,0 +1,4568 @@
+name:
+#  Default - if no names selected | see logic in -->  "quickPick.py" Lines 66 - 71 |
+  - ghost
+
+# 🇺🇸 United States (40 names)
+  - Abigail
+  - Alexander
+  - Amelia
+  - Aria
+  - Ava
+  - Benjamin
+  - Charlotte
+  - Chloe
+  - Daniel
+  - David
+  - Elijah
+  - Emily
+  - Emma
+  - Ethan
+  - Evelyn
+  - Grace
+  - Harper
+  - Henry
+  - Isabella
+  - Jack
+  - Jackson
+  - James
+  - Joseph
+  - Liam
+  - Lily
+  - Lucas
+  - Matthew
+  - Mia
+  - Michael
+  - Noah
+  - Oliver
+  - Olivia
+  - Owen
+  - Penelope
+  - Scarlett
+  - Sebastian
+  - Sophia
+  - Victoria
+  - William
+  - Zoey
+
+# 🇷🇺 Russia (Cyrillic, 40 names)
+  - Анна
+  - София
+  - Мария
+  - Елизавета
+  - Дарья
+  - Виктория
+  - Ольга
+  - Анастасия
+  - Екатерина
+  - Полина
+  - Алина
+  - Ксения
+  - Варвара
+  - Ульяна
+  - Милана
+  - Вера
+  - Меньшикова
+  - Наталья
+  - Татьяна
+  - Ирина
+  - Светлана
+  - Артём
+  - Александр
+  - Иван
+  - Дмитрий
+  - Максим
+  - Михаил
+  - Андрей
+  - Евгений
+  - Никита
+  - Владислав
+  - Кирилл
+  - Тимофей
+  - Роман
+  - Сергей
+  - Глеб
+  - Владимир
+  - Меньшиков
+  - Константин
+  - Арсений
+  - Степан
+  - Даниил
+
+# 🇨🇳 China (Simplified, 40 names)
+  - 李伟
+  - 王芳
+  - 张伟
+  - 刘洋
+  - 陈杰
+  - 杨敏
+  - 周敏
+  - 徐静
+  - 孙丽
+  - 朱莉
+  - 王丽
+  - 张敏
+  - 李娜
+  - 刘静
+  - 陈静
+  - 赵雪
+  - 吴芳
+  - 林娜
+  - 黄丽
+  - 周丽
+  - 赵磊
+  - 黄强
+  - 吴涛
+  - 马超
+  - 郭玲
+  - 何勇
+  - 邓伟
+  - 冯涛
+  - 曾丽
+  - 彭敏
+  - 林强
+  - 高杰
+  - 胡伟
+  - 董磊
+  - 宋涛
+  - 郑伟
+  - 谢强
+  - 方勇
+  - 钟杰
+  - 罗敏
+
+# 🇻🇳 Vietnam (40 names)
+  - Ngọc
+  - Linh
+  - Mai
+  - Hà
+  - Lan
+  - Thảo
+  - Trúc
+  - Anh
+  - Yến
+  - Hương
+  - Diệp
+  - Nga
+  - Hồng
+  - Như
+  - Quỳnh
+  - Phương
+  - Uyên
+  - Kiều
+  - Trang
+  - Vy
+  - Minh
+  - Tuấn
+  - Đức
+  - Khôi
+  - Hải
+  - An
+  - Duy
+  - Kiên
+  - Phúc
+  - Nam
+  - Long
+  - Bảo
+  - Hưng
+  - Trí
+  - Quân
+  - Thiện
+  - Vinh
+  - Thịnh
+  - Sang
+  - Cường
+
+# 🇷🇸 Serbia (Cyrillic, 40 names)
+  - Ана
+  - Јелена
+  - Марија
+  - Софија
+  - Теодора
+  - Милица
+  - Тамара
+  - Ивана
+  - Сара
+  - Андријана
+  - Кристина
+  - Јована
+  - Александра
+  - Вања
+  - Снежана
+  - Даница
+  - Бојана
+  - Нађа
+  - Оливера
+  - Зорана
+  - Никола
+  - Марко
+  - Лука
+  - Стефан
+  - Душан
+  - Немања
+  - Филип
+  - Урош
+  - Милош
+  - Александар
+  - Милан
+  - Бојан
+  - Дејан
+  - Горан
+  - Иван
+  - Саша
+  - Тодор
+  - Жељко
+  - Драган
+
+# 🇩🇪 Germany (40 names)
+  - Mia
+  - Emilia
+  - Hannah
+  - Emma
+  - Sophia
+  - Lina
+  - Anna
+  - Marie
+  - Clara
+  - Lea
+  - Lena
+  - Laura
+  - Nele
+  - Sarah
+  - Johanna
+  - Mila
+  - Lilly
+  - Luisa
+  - Amelie
+  - Mathilda
+  - Leon
+  - Elias
+  - Noah
+  - Finn
+  - Paul
+  - Jonas
+  - Luis
+  - Felix
+  - Tim
+  - Luca
+  - Max
+  - Moritz
+  - Julian
+  - Niklas
+  - David
+  - Theo
+  - Jakob
+  - Anton
+  - Benno
+  - Emil
+  - Philipp
+
+# 🇫🇷 France (40 names)
+  - Louise
+  - Jade
+  - Emma
+  - Alice
+  - Chloé
+  - Lina
+  - Camille
+  - Inès
+  - Manon
+  - Zoé
+  - Léa
+  - Sarah
+  - Lucie
+  - Juliette
+  - Anaïs
+  - Ambre
+  - Romane
+  - Jeanne
+  - Lola
+  - Éva
+  - Léo
+  - Gabriel
+  - Louis
+  - Jules
+  - Hugo
+  - Arthur
+  - Raphaël
+  - Lucas
+  - Nathan
+  - Thomas
+  - Ethan
+  - Enzo
+  - Maël
+  - Clément
+  - Baptiste
+  - Nolan
+  - Axel
+  - Sacha
+  - Marius
+  - Augustin
+
+# 🇪🇸 Spain (40 names)
+  - Lucía
+  - Martina
+  - Sofía
+  - María
+  - Paula
+  - Valeria
+  - Carla
+  - Vega
+  - Alba
+  - Daniela
+  - Sara
+  - Carmen
+  - Alma
+  - Claudia
+  - Adriana
+  - Julia
+  - Noa
+
+  - Triana
+  - Jimena
+  - Hugo
+  - Martín
+  - Mateo
+  - Alejandro
+  - Daniel
+  - Pablo
+  - Adrián
+  - Diego
+  - Manuel
+  - Marcos
+  - Álvaro
+  - Javier
+  - Sergio
+  - Iván
+  - Raúl
+  - Bruno
+  - Mario
+  - Hugo
+  - Gonzalo
+  - Jorge
+
+# 🇲🇽 Mexico (Spanish, 40 names)
+  - Sofía
+  - Valentina
+  - Regina
+  - Ximena
+  - Camila
+  - María
+  - Fernanda
+  - Daniela
+  - Gabriela
+  - Natalia
+  - Renata
+  - Victoria
+  - Luciana
+  - Isabella
+  - Paulina
+  - Jimena
+  - Ana
+  - Carolina
+  - Adriana
+  - Alejandra
+  - Santiago
+  - Mateo
+  - Sebastián
+  - Leonardo
+  - Diego
+  - Daniel
+  - Emiliano
+  - Alexander
+  - Miguel
+  - Eduardo
+  - Javier
+  - Luis
+  - Carlos
+  - Juan
+  - José
+  - Andrés
+  - Jorge
+  - Ricardo
+  - Fernando
+  - Rafael
+  - Antonio
+
+# 🇮🇹 Italy (40 names)
+  - Sofia
+  - Giulia
+  - Aurora
+  - Alice
+  - Ginevra
+  - Emma
+  - Martina
+  - Beatrice
+  - Gaia
+  - Vittoria
+  - Chiara
+  - Elena
+  - Sara
+  - Giorgia
+  - Noemi
+  - Anna
+  - Ludovica
+  - Bianca
+  - Nicole
+  - Rebecca
+  - Leonardo
+  - Francesco
+  - Alessandro
+  - Lorenzo
+  - Matteo
+  - Tommaso
+  - Riccardo
+  - Marco
+  - Antonio
+  - Davide
+  - Federico
+  - Gabriele
+  - Samuele
+  - Edoardo
+  - Christian
+  - Simone
+  - Luca
+  - Pietro
+  - Emanuele
+  - Dario
+  - Elia
+
+# 🇯🇵 Japan (Kanji/Kana, 40 names)
+  - 美咲
+  - 結衣
+  - 葵
+  - 陽菜
+  - 凛
+  - 愛
+  - 結菜
+  - 未来
+  - さくら
+  - 心春
+  - 美月
+  - 莉子
+  - 芽依
+  - 優奈
+  - 彩花
+  - 遥
+  - 萌
+  - 琴音
+  - 千夏
+  - 桜
+  - 蓮
+  - 大翔
+  - 悠真
+  - 陽翔
+  - 蒼
+  - 翔
+  - 結翔
+  - 琉生
+  - 悠月
+  - 海翔
+  - 健太
+  - 拓海
+  - 大和
+  - 涼太
+  - 勇気
+  - 翼
+  - 颯
+  - 湊
+  - 太陽
+  - 律
+
+# 🇬🇧 Britain (40 names)
+  - Alfie
+  - Amelia
+  - Archie
+  - Arthur
+  - Ava
+  - Charlie
+  - Daisy
+  - Ella
+  - Emily
+  - Evie
+  - Finley
+  - Florence
+  - Freddie
+  - Freya
+  - George
+  - Grace
+  - Harry
+  - Henry
+  - Isaac
+  - Isabella
+  - Isla
+  - Ivy
+  - Jack
+  - Jacob
+  - Jessica
+  - Leo
+  - Lily
+  - Lucas
+  - Mia
+  - Muhammad
+  - Noah
+  - Oliver
+  - Olivia
+  - Oscar
+  - Poppy
+  - Rosie
+  - Sienna
+  - Sophia
+  - Theodore
+  - Thomas
+
+
+# 🇮🇳 India (Hindi, Devanagari, 40 names)
+  - आरव
+  - अयान
+  - वेद
+  - शिवांश
+  - तनिष्क
+  - प्रियांश
+  - दिव्यांश
+  - मानव
+  - यश
+  - आरुष
+  - अर्जुन
+  - ऋषि
+  - कबीर
+  - रुद्र
+  - विक्रम
+  - आदित्य
+  - शौर्य
+  - अभिमन्यु
+  - ईशान
+  - ध्रुव
+  - अनाया
+  - आर्या
+  - काव्या
+  - दीया
+  - श्रेया
+  - इशिता
+  - कीर्ति
+  - नैना
+  - परी
+  - वंशिका
+  - अदिति
+  - तृषा
+  - माही
+  - सिया
+  - ईशा
+  - प्रिया
+  - अंजलि
+  - राधा
+  - माया
+  - देवी
+
+# 🇰🇷 Korea (Hangul, 40 names)
+  - 지민
+  - 서준
+  - 민준
+  - 하준
+  - 현우
+  - 준서
+  - 시우
+  - 태윤
+  - 도윤
+  - 예준
+  - 윤호
+  - 지호
+  - 민재
+  - 건우
+  - 유준
+  - 도현
+  - 시현
+  - 민성
+  - 준우
+  - 성민
+  - 수빈
+  - 예은
+  - 지우
+  - 지아
+  - 채원
+  - 하린
+  - 세은
+  - 연우
+  - 아름
+  - 소연
+  - 민서
+  - 서연
+  - 유나
+  - 수민
+  - 은서
+  - 유진
+  - 혜린
+  - 나연
+  - 서현
+  - 하은
+
+# 🇮🇷 Iran (Persian script, 40 names)
+  - یاسمن
+  - پرنیا
+  - ستایش
+  - نیکا
+  - ترانه
+  - آوا
+  - باران
+  - مهسا
+  - سارا
+  - نازنین
+  - حدیث
+  - ریحانه
+  - هلیا
+  - آیناز
+  - کوثر
+  - نگار
+  - مریم
+  - الهه
+  - مهرناز
+  - پریا
+  - امیر
+  - علی
+  - پارسا
+  - کوروش
+  - آرش
+  - رضا
+  - دانیال
+  - سامان
+  - مهران
+  - شاهین
+  - نیما
+  - بهرام
+  - کامران
+  - فرهاد
+  - وحید
+  - هومن
+  - سیاوش
+  - بردیا
+  - کیان
+  - آرمان
+
+# 🇮🇱 Israel (Hebrew, 40 names)
+  - דוד
+  - יוסף
+  - דניאל
+  - מיכאל
+  - יונתן
+  - רפאל
+  - אורי
+  - אדם
+  - נועם
+  - יואב
+  - איתן
+  - יהודה
+  - אריאל
+  - עידו
+  - שחר
+  - איתי
+  - רוני
+  - יהב
+  - מתן
+  - עמית
+  - נועה
+  - תמר
+  - יעל
+  - ליאן
+  - רוני
+  - גילי
+  - מיה
+  - שירה
+  - אלה
+  - אביגיל
+  - טליה
+  - עדי
+  - יהלי
+  - ליאל
+  - נוי
+  - מאיה
+  - נטע
+  - רומי
+  - הילה
+  - שקד
+
+# 🇸🇦 Arabic (Arabic script, 40 names)
+  - محمد
+  - علي
+  - يوسف
+  - حسن
+  - حسين
+  - عبدالله
+  - ناصر
+  - إبراهيم
+  - عمر
+  - سامي
+  - خالد
+  - رامي
+  - ماجد
+  - وليد
+  - زياد
+  - بدر
+  - طارق
+  - هاشم
+  - كريم
+  - وسام
+  - فاطمة
+  - زينب
+  - عائشة
+  - ريم
+  - سارة
+  - آمنة
+  - هاجر
+  - مريم
+  - خديجة
+  - ليلى
+  - نور
+  - جنى
+  - لمى
+  - ياسمين
+  - سلمى
+  - لمياء
+  - رغد
+  - روان
+  - دانية
+  - جود
+
+# 🌍 Africa (40 names)
+  - Amina
+  - Zuri
+  - Ifeoma
+  - Thandiwe
+  - Nia
+  - Eshe
+  - Abena
+  - Ama
+  - Adwoa
+  - Efua
+  - Yetunde
+  - Simisola
+  - Makena
+  - Tariro
+  - Jamila
+  - Fatou
+  - Adama
+  - Nala
+  - Sade
+  - Lulu
+  - Kofi
+  - Kojo
+  - Kwame
+  - Obi
+  - Chidi
+  - Femi
+  - Adewale
+  - Nkosinathi
+  - Bongani
+  - Simphiwe
+  - Ayodele
+  - Boubacar
+  - Moustapha
+  - Aissatou
+  - Seydou
+  - Idris
+  - Jabari
+  - Amare
+  - Ekon
+  - Tau
+
+# 🇹🇷 Turkey (40 names)
+  - Elif
+  - Zeynep
+  - Derya
+  - Aylin
+  - Melis
+  - Selin
+  - Yasemin
+  - Burcu
+  - Ece
+  - Büşra
+  - Şule
+  - Gülşah
+  - Sibel
+  - İrem
+  - Ayşe
+  - Defne
+  - Cemre
+  - Aslı
+  - Deniz
+  - Irmak
+  - Mehmet
+  - Mustafa
+  - Ahmet
+  - Ali
+  - Hakan
+  - Murat
+  - Can
+  - Cem
+  - Emre
+  - Gökhan
+  - İsmail
+  - Yasin
+  - Barış
+  - Oğuz
+  - Levent
+  - Burak
+  - Volkan
+  - Serkan
+  - Onur
+  - Berk
+
+# 🇵🇱 Poland (40 names)
+  - Zuzanna
+  - Julia
+  - Maja
+  - Zofia
+  - Hanna
+  - Amelia
+  - Alicja
+  - Oliwia
+  - Lena
+  - Natalia
+  - Karolina
+  - Wiktoria
+  - Antonina
+  - Laura
+  - Pola
+  - Marcelina
+  - Aniela
+  - Róża
+  - Iga
+  - Daria
+  - Jakub
+  - Kacper
+  - Antoni
+  - Jan
+  - Szymon
+  - Filip
+  - Michał
+  - Aleksander
+  - Franciszek
+  - Mikołaj
+  - Wojciech
+  - Tymon
+  - Igor
+  - Bartosz
+  - Nikodem
+  - Krzysztof
+  - Dominik
+  - Oliwier
+  - Marek
+  - Stanisław
+
+# 🇬🇷 Greece (40 names)
+  - Μαρία
+  - Ελένη
+  - Αικατερίνη
+  - Βασιλική
+  - Σοφία
+  - Ανδρονίκη
+  - Δέσποινα
+  - Παναγιώτα
+  - Χριστίνα
+  - Αναστασία
+  - Ευαγγελία
+  - Αθηνά
+  - Ειρήνη
+  - Καλλιόπη
+  - Ζωή
+  - Αγγελική
+  - Δανάη
+  - Ελισάβετ
+  - Ολυμπία
+  - Πηνελόπη
+  - Γεώργιος
+  - Δημήτριος
+  - Κωνσταντίνος
+  - Βασίλειος
+  - Νικόλαος
+  - Παναγιώτης
+  - Χρήστος
+  - Αθανάσιος
+  - Εμμανουήλ
+  - Μιχαήλ
+  - Σπυρίδων
+  - Αριστείδης
+  - Ευάγγελος
+  - Ηλίας
+  - Στέφανος
+  - Πέτρος
+  - Ανδρέας
+  - Αλέξανδρος
+  - Σωκράτης
+  - Φώτιος
+
+# 🇮🇪 Ireland (40 names)
+  - Aoife
+  - Caoimhe
+  - Saoirse
+  - Niamh
+  - Róisín
+  - Ciara
+  - Eabha
+  - Fiadh
+  - Aoibhinn
+  - Síofra
+  - Gráinne
+  - Méabh
+  - Clodagh
+  - Orlaith
+  - Bláthnaid
+  - Aisling
+  - Dearbhla
+  - Eimear
+  - Laoise
+  - Ríona
+  - Seán
+  - Conor
+  - Oisín
+  - Cian
+  - Liam
+  - Fionn
+  - Darragh
+  - Tadhg
+  - Cillian
+  - Eoin
+  - Patrick
+  - Brendan
+  - Colm
+  - Donal
+  - Enda
+  - Fergal
+  - Kieran
+  - Niall
+  - Ronan
+  - Shane
+
+# 🇫🇮 Finland (40 names)
+  - Aino
+  - Alma
+  - Anni
+  - Ella
+  - Emilia
+  - Enni
+  - Hilma
+  - Iida
+  - Ilona
+  - Inkeri
+  - Jenna
+  - Kerttu
+  - Laura
+  - Leena
+  - Lilja
+  - Linnea
+  - Maija
+  - Miina
+  - Saara
+  - Venla
+  - Aatos
+  - Eemeli
+  - Eero
+  - Elias
+  - Emil
+  - Hannes
+  - Ilmari
+  - Juhani
+  - Juho
+  - Kauko
+  - Leevi
+  - Matias
+  - Onni
+  - Otto
+  - Pekka
+  - Santeri
+  - Tapio
+  - Toivo
+  - Väinö
+  - Vilho
+
+# 🇸🇪 Sweden (40 names)
+  - Alice
+  - Maja
+  - Elsa
+  - Ella
+  - Wilma
+  - Astrid
+  - Saga
+  - Freja
+  - Alma
+  - Selma
+  - Agnes
+  - Signe
+  - Liv
+  - Ellen
+  - Nova
+  - Alva
+  - Tilde
+  - Ebba
+  - Hedda
+  - Linnea
+  - Liam
+  - Noah
+  - William
+  - Hugo
+  - Lucas
+  - Oliver
+  - Elias
+  - Alexander
+  - Leo
+  - Oscar
+  - Charlie
+  - Theo
+  - Arvid
+  - Alfons
+  - Axel
+  - Vidar
+  - Isak
+  - Nils
+  - Edvin
+  - Vilgot
+
+# 🇳🇴 Norway (40 names)
+  - Emma
+  - Nora
+  - Sofie
+  - Ella
+  - Maja
+  - Leah
+  - Frida
+  - Ingrid
+  - Emilie
+  - Thea
+  - Mathilde
+  - Linnea
+  - Ida
+  - Amalie
+  - Sigrid
+  - Tuva
+  - Selma
+  - Sunniva
+  - Hedda
+  - Vilja
+  - Jakob
+  - Lucas
+  - Emil
+  - Oliver
+  - Noah
+  - Filip
+  - Aksel
+  - Isak
+  - Magnus
+  - Henrik
+  - Tobias
+  - Sondre
+  - Jonas
+  - Kristian
+  - Markus
+  - Martin
+  - Simen
+  - Vetle
+  - Eirik
+  - Øystein
+
+# 🇬🇪 Georgia (Georgian script, 40 names)
+  - ნინო
+  - მარიამ
+  - თამარ
+  - ნანა
+  - ანა
+  - ეკატერინე
+  - მაია
+  - ქეთევან
+  - სალომე
+  - ნატალია
+  - ირინა
+  - სოფიო
+  - თეა
+  - ლიკა
+  - ბარბარე
+  - ელენე
+  - მანანა
+  - ნიკა
+  - რუსუდან
+  - ნათია
+  - გიორგი
+  - დავით
+  - ლუკა
+  - ნიკოლოზ
+  - სანდრო
+  - ირაკლი
+  - ლევან
+  - თორნიკე
+  - ვახტანგ
+  - ზურაბ
+  - შოთა
+  - მიხეილ
+  - ოთარ
+  - რევაზ
+  - გურამ
+  - თემური
+  - ამირან
+  - ბეჟან
+  - ვასილ
+  - ჯემალ
+
+# 🇺🇦 Ukraine (Cyrillic, 40 names)
+  - Анна
+  - Вікторія
+  - Софія
+  - Марія
+  - Дар'я
+  - Злата
+  - Олександра
+  - Катерина
+  - Поліна
+  - Анастасія
+  - Єва
+  - Вероніка
+  - Ярина
+  - Наталія
+  - Ольга
+  - Тетяна
+  - Юлія
+  - Ірина
+  - Світлана
+  - Людмила
+  - Дмитро
+  - Максим
+  - Артем
+  - Іван
+  - Кирило
+  - Олексій
+  - Андрій
+  - Данило
+  - Богдан
+  - Владислав
+  - Михайло
+  - Ярослав
+  - Роман
+  - Сергій
+  - Василь
+  - Тарас
+  - Назар
+  - Захар
+  - Микола
+  - Ігор
+
+# 🇦🇲 Armenia (Armenian script, 40 names)
+  - Անահիտ
+  - Անի
+  - Արփի
+  - Գայանե
+  - Եվա
+  - Էմմա
+  - Լիլիթ
+  - Լուսինե
+  - Մարի
+  - Մարինե
+  - Նարե
+  - Նատալի
+  - Ռուզան
+  - Սոնա
+  - Սուսաննա
+  - Շուշան
+  - Վարդուհի
+  - Տաթև
+  - Քրիստինե
+  - Հասմիկ
+  - Արամ
+  - Արմեն
+  - Արտյոմ
+  - Գագիկ
+  - Գոռ
+  - Դավիթ
+  - Երվանդ
+  - Կարեն
+  - Հայկ
+  - Հովհաննես
+  - Մհեր
+  - Նարեկ
+  - Ռուբեն
+  - Սարգիս
+  - Տիգրան
+  - Վահագն
+  - Վահե
+  - Վարդան
+  - Տարոն
+  - Աշոտ
+
+# 🇧🇾 Belarus (Cyrillic, 40 names)
+  - Анастасія
+  - Вольга
+  - Кацярына
+  - Марыя
+  - Юлія
+  - Алена
+  - Вікторыя
+  - Дар'я
+  - Крысціна
+  - Наста
+  - Паліна
+  - Таццяна
+  - Ганна
+  - Iлона
+  - Ірына
+  - Ліза
+  - Надзея
+  - Святлана
+  - Ульяна
+  - Яна
+  - Жанна
+  - Арцём
+  - Іван
+  - Дзмітрый
+  - Аляксандр
+  - Максім
+  - Кірыл
+  - Ягор
+  - Міхаіл
+  - Павел
+  - Андрэй
+  - Дзяніс
+  - Станіслаў
+  - Уладзіслаў
+  - Раман
+  - Цімафей
+  - Вадзім
+  - Яраслаў
+  - Сяргей
+  - Алег
+  - Віталь
+
+# 🇰🇿 Kazakhstan (Cyrillic, 40 names)
+  - Айгерім
+  - Алия
+  - Аружан
+  - Айсулу
+  - Гүлназ
+  - Дария
+  - Жанна
+  - Жибек
+  - Камила
+  - Лейла
+  - Мадина
+  - Назерке
+  - Нурай
+  - Сания
+  - Томирис
+  - Фатима
+  - Шынар
+  - Эльмира
+  - Айнур
+  - Ботагоз
+  - Али
+  - Амир
+  - Арман
+  - Данияр
+  - Ерлан
+  - Жасұлан
+  - Қайрат
+  - Мұрат
+  - Нұрлан
+  - Рахат
+  - Руслан
+  - Сәкен
+  - Тимур
+  - Ұлан
+  - Шерхан
+  - Ержан
+  - Аслан
+  - Бауыржан
+  - Дастан
+  - Медет
+
+# 🇵🇹 Portugal (40 names)
+  - Leonor
+  - Matilde
+  - Maria
+  - Beatriz
+  - Carolina
+  - Inês
+  - Mariana
+  - Ana
+  - Sofia
+  - Laura
+  - Francisca
+  - Diana
+  - Margarida
+  - Gabriela
+  - Rita
+  - Mafalda
+  - Catarina
+  - Eva
+  - Cláudia
+  - Raquel
+  - João
+  - Francisco
+  - Rodrigo
+  - Tomás
+  - Martim
+  - Duarte
+  - Afonso
+  - Santiago
+  - Miguel
+  - Guilherme
+  - Gonçalo
+  - Gabriel
+  - Lourenço
+  - Vasco
+  - Salvador
+  - Tiago
+  - Daniel
+  - David
+  - Rui
+  - Pedro
+
+# 🇨🇿 Czech Republic (40 names)
+  - Tereza
+  - Adéla
+  - Anna
+  - Eliška
+  - Natálie
+  - Karolína
+  - Barbora
+  - Kateřina
+  - Julie
+  - Lucie
+  - Veronika
+  - Nikola
+  - Michaela
+  - Alžběta
+  - Kristýna
+  - Markéta
+  - Zuzana
+  - Simona
+  - Petra
+  - Hana
+  - Jakub
+  - Jan
+  - Tomáš
+  - Adam
+  - Matyáš
+  - Filip
+  - Vojtěch
+  - Ondřej
+  - Martin
+  - Daniel
+  - Michal
+  - Pavel
+  - David
+  - Štěpán
+  - Dominik
+  - Kryštof
+  - Lukáš
+  - Patrik
+  - Richard
+  - Roman
+
+# 🇹🇭 Thailand (40 names)
+  - Chompoo
+  - Mint
+  - Ploy
+  - Namfon
+  - Praew
+  - Araya
+  - Pim
+  - Fah
+  - Ying
+  - Naree
+  - Kwan
+  - Dao
+  - Bua
+  - Mali
+  - Som
+  - Nong
+  - Pimchanok
+  - Sirin
+  - Wanida
+  - Anchali
+  - Krit
+  - Thanawat
+  - Nattawat
+  - Pong
+  - Bank
+  - Gun
+  - Ton
+  - Arm
+  - Earth
+  - Fluke
+  - Bright
+  - Win
+  - Ohm
+  - Mix
+  - Off
+  - Tay
+  - New
+  - James
+  - Boat
+  - Note
+
+# 🇭🇺 Hungary (40 names)
+  - Hanna
+  - Anna
+  - Luca
+  - Zoé
+  - Lili
+  - Emma
+  - Boglárka
+  - Jázmin
+  - Lilla
+  - Petra
+  - Gréta
+  - Mira
+  - Dorina
+  - Réka
+  - Eszter
+  - Fanni
+  - Viktória
+  - Zsófia
+  - Nóra
+  - Dóra
+  - Bence
+  - Máté
+  - Levente
+  - Noel
+  - Ádám
+  - Dániel
+  - Dominik
+  - Milán
+  - Olivér
+  - Tamás
+  - Balázs
+  - Gergő
+  - Kristóf
+  - Zsombor
+  - Patrik
+  - Szabolcs
+  - Tibor
+  - Viktor
+  - Barnabás
+  - Zalán
+
+# 🇳🇱 Netherlands (40 names)
+  - Emma
+  - Julia
+  - Sophie
+  - Lotte
+  - Lisa
+  - Eva
+  - Anna
+  - Fleur
+  - Saar
+  - Noa
+  - Liv
+  - Nora
+  - Mila
+  - Tess
+  - Zoë
+  - Lynn
+  - Fenna
+  - Roos
+  - Yara
+  - Lauren
+  - Noah
+  - Daan
+  - Sem
+  - Finn
+  - Lucas
+  - Levi
+  - Luuk
+  - Bram
+  - Mees
+  - Milan
+  - Jesse
+  - Thijs
+  - Sam
+  - Liam
+  - Max
+  - Thomas
+  - Julian
+  - Benjamin
+  - Ruben
+  - Hugo
+
+# 🇦🇹 Austria (40 names)
+  - Anna
+  - Emma
+  - Lena
+  - Sophia
+  - Mia
+  - Hannah
+  - Emilia
+  - Laura
+  - Lea
+  - Sarah
+  - Lina
+  - Julia
+  - Marie
+  - Johanna
+  - Amelie
+  - Leonie
+  - Magdalena
+  - Valerie
+  - Theresa
+  - Katharina
+  - Lukas
+  - Tobias
+  - Julian
+  - Felix
+  - David
+  - Simon
+  - Maximilian
+  - Alexander
+  - Paul
+  - Jonas
+  - Leon
+  - Noah
+  - Elias
+  - Florian
+  - Raphael
+  - Moritz
+  - Niklas
+  - Sebastian
+  - Christoph
+  - Benjamin
+
+# 🇩🇰 Denmark (40 names)
+  - Emma
+  - Ida
+  - Clara
+  - Sofia
+  - Freja
+  - Ella
+  - Anna
+  - Mathilde
+  - Laura
+  - Alberte
+  - Caroline
+  - Maja
+  - Victoria
+  - Emilie
+  - Nora
+  - Olivia
+  - Astrid
+  - Frida
+  - Josefine
+  - Signe
+  - Noah
+  - William
+  - Lucas
+  - Emil
+  - Oliver
+  - Malthe
+  - Victor
+  - Magnus
+  - Oscar
+  - Alfred
+  - Carl
+  - Valdemar
+  - Aksel
+  - August
+  - Elliot
+  - Frederik
+  - Tobias
+  - Anton
+  - Benjamin
+  - Sebastian
+
+# 🇮🇸 Iceland (40 names)
+  - Guðrún
+  - Anna
+  - Sigríður
+  - Kristín
+  - Margrét
+  - Helga
+  - Sigrún
+  - Ingibjörg
+  - Jóhanna
+  - María
+  - Elín
+  - Ragnheiður
+  - Sara
+  - Hildur
+  - Bryndís
+  - Ásta
+  - Dagný
+  - Freyja
+  - Birna
+  - Steinunn
+  - Jón
+  - Sigurður
+  - Guðmundur
+  - Gunnar
+  - Ólafur
+  - Einar
+  - Kristján
+  - Magnús
+  - Stefán
+  - Jóhann
+  - Björn
+  - Arnar
+  - Ari
+  - Axel
+  - Viktor
+  - Hlynur
+  - Sindri
+  - Kári
+  - Atli
+  - Dagur
+
+# 🇷🇴 Romania (40 names)
+  - Maria
+  - Elena
+  - Ioana
+  - Andreea
+  - Mihaela
+  - Alexandra
+  - Ana
+  - Cristina
+  - Gabriela
+  - Alina
+  - Raluca
+  - Georgiana
+  - Diana
+  - Laura
+  - Denisa
+  - Larisa
+  - Simona
+  - Adelina
+  - Bianca
+  - Nicoleta
+  - Andrei
+  - Alexandru
+  - Ionuț
+  - Mihai
+  - George
+  - Ciprian
+  - Florin
+  - Daniel
+  - Cristian
+  - Adrian
+  - Marius
+  - Bogdan
+  - Valentin
+  - Raul
+  - Vlad
+  - Cosmin
+  - Tudor
+  - Sebastian
+  - Laurențiu
+  - Horia
+
+# 🇧🇬 Bulgaria (40 names)
+  - Maria
+  - Ivana
+  - Elena
+  - Gabriela
+  - Alexandra
+  - Viktoria
+  - Daniela
+  - Ralitsa
+  - Gergana
+  - Desislava
+  - Radostina
+  - Silvia
+  - Yoana
+  - Kalina
+  - Simona
+  - Teodora
+  - Nadezhda
+  - Milena
+  - Hristina
+  - Antonia
+  - Georgi
+  - Ivan
+  - Dimitar
+  - Aleksandar
+  - Martin
+  - Nikolay
+  - Stefan
+  - Kristiyan
+  - Daniel
+  - Vasil
+  - Kaloyan
+  - Todor
+  - Hristo
+  - Angel
+  - Radoslav
+  - Plamen
+  - Valentin
+  - Borislav
+  - Emil
+  - Lyubomir
+
+# 🇵🇭 Philippines (40 names)
+  - Maria
+  - Jasmine
+  - Angelica
+  - Sophia
+  - Andrea
+  - Nicole
+  - Christine
+  - Gabrielle
+  - Patricia
+  - Isabella
+  - Camille
+  - Danielle
+  - Samantha
+  - Juliana
+  - Beatrice
+  - Cassandra
+  - Veronica
+  - Rosemarie
+  - Therese
+  - Carmela
+  - Joshua
+  - Daniel
+  - Matthew
+  - Christian
+  - Anthony
+  - Gabriel
+  - Raphael
+  - Vincent
+  - Emmanuel
+  - Sebastian
+  - Nathaniel
+  - Jeremiah
+  - Dominic
+  - Adrian
+  - Lorenzo
+  - Miguel
+  - Carlo
+  - Alfonso
+  - Ferdinand
+  - Roberto
+
+# 🇲🇾 Malaysia (40 names)
+  - Aisyah
+  - Nurul
+  - Siti
+  - Fatimah
+  - Aminah
+  - Zara
+  - Yasmin
+  - Sarah
+  - Iman
+  - Alia
+  - Maya
+  - Laila
+  - Putri
+  - Dayana
+  - Intan
+  - Mira
+  - Anis
+  - Farah
+  - Diana
+  - Nabila
+  - Muhammad
+  - Ahmad
+  - Amir
+  - Adam
+  - Daniel
+  - Haris
+  - Irfan
+  - Faiz
+  - Haziq
+  - Izzuddin
+  - Syafiq
+  - Aiman
+  - Faris
+  - Danish
+  - Arif
+  - Zikri
+  - Hafiz
+  - Syamil
+  - Asyraf
+  - Firdaus
+
+# 🇿🇦 South Africa (40 names)
+  - Amahle
+  - Lethabo
+  - Naledi
+  - Thando
+  - Lesedi
+  - Kamogelo
+  - Karabo
+  - Tshiamo
+  - Katlego
+  - Boipelo
+  - Refilwe
+  - Nomvula
+  - Siphokazi
+  - Zanele
+  - Nolwazi
+  - Thulisile
+  - Nonhlanhla
+  - Nokuthula
+  - Sindisiwe
+  - Thandeka
+  - Lethabo
+  - Kagiso
+  - Thabo
+  - Sipho
+  - Tshepo
+  - Mpho
+  - Simphiwe
+  - Bongani
+  - Siyabonga
+  - Njabulo
+  - Sandile
+  - Vusi
+  - Mandla
+  - Jabulani
+  - Dumisani
+  - Khaya
+  - Sibusiso
+  - Andile
+  - Sifiso
+  - Thulani
+
+# 🇦🇷 Argentina (40 names)
+  - Sofía
+  - Valentina
+  - Martina
+  - Isabella
+  - Emma
+  - Mía
+  - Victoria
+  - Catalina
+  - Luciana
+  - Camila
+  - Renata
+  - Agustina
+  - Julieta
+  - Clara
+  - Emilia
+  - Pilar
+  - Florencia
+  - Antonella
+  - Milagros
+  - Morena
+  - Santiago
+  - Mateo
+  - Lucas
+  - Benjamín
+  - Thiago
+  - Martín
+  - Nicolás
+  - Francisco
+  - Tomás
+  - Juan
+  - Joaquín
+  - Facundo
+  - Agustín
+  - Lautaro
+  - Franco
+  - Rodrigo
+  - Matías
+  - Ignacio
+  - Dante
+  - Máximo
+
+# 🇨🇱 Chile (40 names)
+  - Isidora
+  - Emilia
+  - Agustina
+  - Sofía
+  - Florencia
+  - Martina
+  - Valentina
+  - Magdalena
+  - Trinidad
+  - Amanda
+  - Antonia
+  - Catalina
+  - Josefina
+  - Fernanda
+  - Renata
+  - Daniela
+  - Pilar
+  - Javiera
+  - Constanza
+  - Victoria
+  - Agustín
+  - Benjamín
+  - Vicente
+  - Maximiliano
+  - Martín
+  - Joaquín
+  - Cristóbal
+  - Matías
+  - Diego
+  - Juan
+  - Sebastián
+  - Nicolás
+  - Alejandro
+  - Alonso
+  - Felipe
+  - Lucas
+  - Tomás
+  - Rafael
+  - Gabriel
+  - Ignacio
+
+# 🇨🇭 Switzerland (German, French, Italian mix — 40 names)
+  - Mia
+  - Emma
+  - Lara
+  - Sofia
+  - Lea
+  - Elena
+  - Chiara
+  - Noemi
+  - Alina
+  - Laura
+  - Luca
+  - Noah
+  - Matteo
+  - Elias
+  - Jonas
+  - Gabriel
+  - Leo
+  - Samuel
+  - Fabio
+  - David
+
+# 🇧🇷 Brazil (Portuguese — 40 names)
+  - Maria
+  - Ana
+  - Beatriz
+  - Camila
+  - Clara
+  - Helena
+  - Júlia
+  - Larissa
+  - Rafaela
+  - Vitória
+  - Lucas
+  - Gabriel
+  - Matheus
+  - Rafael
+  - Bruno
+  - Pedro
+  - Felipe
+  - Gustavo
+  - Thiago
+  - André
+
+# 🇪🇬 Egypt (Arabic script — 40 names)
+  - محمد
+  - أحمد
+  - يوسف
+  - عمر
+  - محمود
+  - علي
+  - كريم
+  - إبراهيم
+  - سامي
+  - حسام
+  - فاطمة
+  - مريم
+  - نور
+  - آية
+  - سلمى
+  - سارة
+  - شيماء
+  - هبة
+  - ياسمين
+  - دعاء
+
+# 🇪🇹 Ethiopia (Amharic script — 40 names)
+  - ሚካኤል
+  - ሄኖክ
+  - ዳንኤል
+  - ሮቤል
+  - ዮሴፍ
+  - ሐዋርያ
+  - ሳሙኤል
+  - አብርሃም
+  - ታደሰ
+  - ሰይፉ
+  - ሚስጥራት
+  - ሃና
+  - መስፍን
+  - ውብነት
+  - ሳምራ
+  - ተዋህዶ
+  - ዋሪት
+  - ስብሃት
+  - ነጋሽ
+  - ቤተሰብ
+
+# 🇳🇬 Nigeria (Yoruba/Igbo/Hausa mix — 40 names)
+  - Chinedu
+  - Ifeanyi
+  - Emeka
+  - Tunde
+  - Uche
+  - Oluwaseun
+  - Obinna
+  - Ayodele
+  - Chuka
+  - Kehinde
+  - Adaeze
+  - Ngozi
+  - Ifunanya
+  - Chiamaka
+  - Kemi
+  - Amara
+  - Aisha
+  - Yetunde
+  - Onyinye
+  - Ebele
+
+# 🇳🇿 New Zealand (Māori & English mix — 40 names)
+  - Aroha
+  - Moana
+  - Anahera
+  - Mereana
+  - Hinewai
+  - Tariana
+  - Katarina
+  - Wikitoria
+  - Riria
+  - Hinepounamu
+  - Wiremu
+  - Tamati
+  - Hoani
+  - Tane
+  - Rawiri
+  - Hemi
+  - Eruera
+  - Rangi
+  - Manuera
+  - Mikaere
+
+# 🇲🇦 Morocco (Arabic script & Berber names — 40 names)
+  - محمد
+  - يوسف
+  - ياسين
+  - ريان
+  - حمزة
+  - أمين
+  - سفيان
+  - نبيل
+  - عادل
+  - طارق
+  - فاطمة
+  - سلمى
+  - خديجة
+  - أسماء
+  - سارة
+  - نرجس
+  - مريم
+  - جميلة
+  - أمينة
+  - زينب
+
+# 🇵🇰 Pakistan (Urdu script — 40 names)
+  - علی
+  - حسن
+  - حسین
+  - زید
+  - عمر
+  - فرحان
+  - بلال
+  - یاسر
+  - عمران
+  - وقاص
+  - عائشہ
+  - فاطمہ
+  - مریم
+  - زینب
+  - سارہ
+  - حفصہ
+  - نائلہ
+  - رمشہ
+  - نادیہ
+  - مہوش
+
+# 🇻🇪 Venezuela (Spanish — 40 names)
+  - María
+  - Carmen
+  - Daniela
+  - Andreína
+  - Gabriela
+  - Patricia
+  - Carolina
+  - Verónica
+  - Adriana
+  - Luisa
+  - José
+  - Luis
+  - Carlos
+  - Andrés
+  - Rafael
+  - Juan
+  - Miguel
+  - Pedro
+  - Antonio
+  - Diego
+
+# 🇮🇩 Indonesia (Bahasa & Javanese mix — 40 names)
+  - Siti
+  - Dewi
+  - Ayu
+  - Rini
+  - Putri
+  - Ratna
+  - Intan
+  - Wulan
+  - Rani
+  - Fitri
+  - Agus
+  - Budi
+  - Joko
+  - Eko
+  - Slamet
+  - Yudi
+  - Bambang
+  - Hadi
+  - Heri
+  - Dwi
+
+# 🇧🇪 Belgium (Dutch/French mix — 40 names)
+  - Emma
+  - Louise
+  - Mila
+  - Zoé
+  - Alice
+  - Juliette
+  - Camille
+  - Elena
+  - Noor
+  - Chloé
+  - Lucas
+  - Louis
+  - Arthur
+  - Jules
+  - Liam
+  - Noah
+  - Nathan
+  - Matteo
+  - Théo
+  - Victor
+
+# 🇰🇭 Cambodia (Khmer script — 40 names)
+  - សុភា
+  - សុជាតិ
+  - ប៊ុនថន
+  - វិសាល
+  - ពិសិដ្ឋ
+  - សុវណ្ណ
+  - សុវណ្ណារា
+  - ធីរ៉ា
+  - សាន
+  - វិសាល
+  - សុភក្ត្រា
+  - ច័ន្ទនី
+  - សុវណ្ណស្រី
+  - យ៉ង់ហេង
+  - មាស
+  - ឆៃ
+  - សុវណ្ណារិទ្ធិ
+  - ឡេង
+  - នី
+  - សុខនាង
+
+# 🇲🇳 Mongolia (Cyrillic — 40 names)
+  - Бат-Эрдэнэ
+  - Ганбаатар
+  - Энхбат
+  - Энхбаяр
+  - Амарсанаа
+  - Баатар
+  - Наранбаатар
+  - Батболд
+  - Сэргэлэн
+  - Тэмүүлэн
+  - Энхжаргал
+  - Ундраа
+  - Мөнхцэцэг
+  - Солонго
+  - Оюун-Эрдэнэ
+  - Болормаа
+  - Туул
+  - Батцэцэг
+  - Ариунзаяа
+  - Энхтуяа
+
+# 🇳🇵 Nepal (Devanagari script — 40 names)
+  - अर्जुन
+  - बिक्रम
+  - दीपक
+  - गोपाल
+  - हेमन्त
+  - इन्द्र
+  - किशोर
+  - लक्ष्मण
+  - मनोज
+  - राजु
+  - अनिता
+  - बिन्दु
+  - चित्रा
+  - दीपा
+  - गीता
+  - हेमा
+  - इन्दिरा
+  - कमला
+  - लक्ष्मी
+  - मञ्जु
+
+# 🇱🇰 Sri Lanka (සිංහල / தமிழ் — 40 names)
+  - අනෝමා
+  - චන්ද්‍රිකා
+  - කසුනි
+  - මනෝරි
+  - නිහාන්සලා
+  - රශිකා
+  - සචින්ත්‍රා
+  - සුධාරා
+  - වසුද
+  - ශෂිකලා
+  - அனிதா
+  - சந்தியா
+  - திவ்யா
+  - பவித்ரா
+  - மாலினி
+  - ரமேஷ்வரி
+  - சுதா
+  - வித்யா
+  - யாழினி
+  - ரூபா
+  - අශෝක
+  - චන්ද්‍රසිරි
+  - ධනංජය
+  - ගයන්ත
+  - ජයසූරිය
+  - කසුන්
+  - මධුසංඛ
+  - නුවන්
+  - රන්ජිත්
+  - සන්ජය
+  - அருண்
+  - சந்திரன்
+  - கவின்
+  - மணோஜ்
+  - ரமேஷ்
+  - சஞ்சீவ்
+  - சந்திரபால்
+  - முரளி
+  - கிருஷ்ணா
+  - சிதம்பரம்
+
+# 🇸🇩 السودان (Arabic — 40 names)
+  - فاطمة
+  - آمنة
+  - عائشة
+  - مريم
+  - سلمى
+  - أسماء
+  - هالة
+  - سارة
+  - نجلاء
+  - حليمة
+  - نورا
+  - جميلة
+  - رابعة
+  - رقية
+  - خديجة
+  - سميرة
+  - زهراء
+  - ميسون
+  - بلقيس
+  - ثريا
+  - محمد
+  - أحمد
+  - إسماعيل
+  - عمر
+  - يوسف
+  - عبدالله
+  - الزبير
+  - مصطفى
+  - صالح
+  - عثمان
+  - إدريس
+  - الطيب
+  - مالك
+  - حمزة
+  - أنور
+  - بشير
+  - كمال
+  - العباس
+  - مكاوي
+  - جعفر
+
+# 🇸🇷 Suriname (Dutch, Sarnami mix — 40 names)
+  - Anisa
+  - Ashna
+  - Jaswina
+  - Nandini
+  - Reshma
+  - Sunita
+  - Vidya
+  - Radha
+  - Sharmila
+  - Indira
+  - Monique
+  - Chantal
+  - Desiree
+  - Jennifer
+  - Patricia
+  - Linda
+  - Marijke
+  - Saskia
+  - Yvonne
+  - Ingrid
+  - Rajesh
+  - Sunil
+  - Vishal
+  - Kishan
+  - Ajay
+  - Deepak
+  - Mahesh
+  - Anil
+  - Sanjay
+  - Rakesh
+  - Michael
+  - Patrick
+  - Ronald
+  - Peter
+  - Henk
+  - Johan
+  - Wim
+  - Fred
+  - Eric
+  - Jan
+
+# 🇸🇾 سوريا (Arabic — 40 names)
+  - فاطمة
+  - زينب
+  - سلمى
+  - هبة
+  - ليلى
+  - نور
+  - رانيا
+  - مها
+  - دعاء
+  - جميلة
+  - ريم
+  - سعاد
+  - منى
+  - عبير
+  - شهد
+  - ميساء
+  - صفاء
+  - سيرين
+  - دانية
+  - هدى
+  - محمد
+  - أحمد
+  - محمود
+  - علي
+  - حسن
+  - حسين
+  - يوسف
+  - سامي
+  - رامي
+  - نادر
+  - فادي
+  - كريم
+  - بشار
+  - خالد
+  - وليد
+  - عصام
+  - طلال
+  - سلمان
+  - عابد
+  - غسان
+
+# 🇹🇼 台灣 (繁體中文 — 40 names)
+  - 美玲
+  - 麗華
+  - 雅芳
+  - 秀英
+  - 玉珍
+  - 慧玲
+  - 淑芬
+  - 怡君
+  - 靜宜
+  - 慧君
+  - 佳慧
+  - 怡婷
+  - 家綺
+  - 雅婷
+  - 曉芬
+  - 淑惠
+  - 怡如
+  - 佩君
+  - 惠美
+  - 玉梅
+  - 志明
+  - 建宏
+  - 志強
+  - 俊傑
+  - 志豪
+  - 家豪
+  - 冠宇
+  - 承恩
+  - 文彥
+  - 俊賢
+  - 偉翔
+  - 信宏
+  - 偉倫
+  - 信義
+  - 宇翔
+  - 柏翰
+  - 志偉
+  - 家銘
+  - 志忠
+  - 建志
+
+# 🇹🇯 Тоҷикистон (Cyrillic — 40 names)
+  - Мадина
+  - Шабнам
+  - Зулайхо
+  - Фарида
+  - Манижа
+  - Гулнора
+  - Мехринисо
+  - Шарофат
+  - Фотима
+  - Гули
+  - Ситора
+  - Зулфия
+  - Мунира
+  - Саида
+  - Муяссар
+  - Дилбар
+  - Парвина
+  - Дилноза
+  - Сабрина
+  - Фируза
+  - Фаррух
+  - Шамсиддин
+  - Бехруз
+  - Далер
+  - Рустам
+  - Фирдавс
+  - Икром
+  - Сорбон
+  - Файзали
+  - Сиёвуш
+  - Хуршед
+  - Шахриёр
+  - Ислом
+  - Амир
+  - Навруз
+  - Зариф
+  - Умед
+  - Шерали
+  - Камол
+  - Иброхим
+
+# 🇨🇴 Colombia (Español — 40 nombres)
+  - Valentina
+  - Mariana
+  - Isabella
+  - Daniela
+  - Camila
+  - Juliana
+  - Sara
+  - Laura
+  - Lucía
+  - Paula
+  - María José
+  - Gabriela
+  - Ángela
+  - Nicole
+  - Lina
+  - Manuela
+  - Catalina
+  - Viviana
+  - Andrea
+  - Alejandra
+  - Santiago
+  - Juan
+  - Andrés
+  - Sebastián
+  - Nicolás
+  - Tomás
+  - Diego
+  - Felipe
+  - Jorge
+  - Alejandro
+  - Esteban
+  - Ricardo
+  - Fernando
+  - Álvaro
+  - Mauricio
+  - Javier
+  - Cristian
+  - Pedro
+  - Rafael
+  - Carlos
+
+# 🇧🇪 Belgium (Nederlands & Français — 40 namen / prénoms)
+  - Emma
+  - Louise
+  - Mila
+  - Zoé
+  - Alice
+  - Juliette
+  - Camille
+  - Elena
+  - Noor
+  - Chloé
+  - Marie
+  - Laura
+  - Manon
+  - Elise
+  - Clara
+  - Jeanne
+  - Aurélie
+  - Eva
+  - Axelle
+  - Léa
+  - Lucas
+  - Louis
+  - Arthur
+  - Jules
+  - Liam
+  - Noah
+  - Nathan
+  - Matteo
+  - Théo
+  - Victor
+  - Simon
+  - Maxime
+  - Thomas
+  - Julien
+  - Hugo
+  - Florian
+  - Sébastien
+  - Nicolas
+  - Pierre
+  - Baptiste
+
+# 🇮🇩 Indonesia (Bahasa Indonesia & Jawa — 40 nama)
+  - Siti
+  - Dewi
+  - Ayu
+  - Rini
+  - Putri
+  - Ratna
+  - Intan
+  - Wulan
+  - Rani
+  - Fitri
+  - Ani
+  - Yuni
+  - Lestari
+  - Nurul
+  - Melati
+  - Kartini
+  - Citra
+  - Rahayu
+  - Lila
+  - Mega
+  - Agus
+  - Budi
+  - Joko
+  - Eko
+  - Slamet
+  - Yudi
+  - Bambang
+  - Hadi
+  - Heri
+  - Dwi
+  - Andi
+  - Fajar
+  - Gunawan
+  - Rahmat
+  - Wahyu
+  - Surya
+  - Arif
+  - Bagus
+  - Bayu
+  - Yoga
+
+# 🇻🇪 Venezuela (Español — 40 nombres)
+  - María
+  - Carmen
+  - Daniela
+  - Andreína
+  - Gabriela
+  - Patricia
+  - Carolina
+  - Verónica
+  - Adriana
+  - Luisa
+  - Ana
+  - Sofía
+  - Francisca
+  - Lorena
+  - Paulina
+  - Beatriz
+  - Teresa
+  - Liliana
+  - Rosalía
+  - Eugenia
+  - José
+  - Luis
+  - Carlos
+  - Andrés
+  - Rafael
+  - Juan
+  - Miguel
+  - Pedro
+  - Antonio
+  - Diego
+  - Manuel
+  - Tomás
+  - Vicente
+  - Fernando
+  - Gonzalo
+  - Alberto
+  - Rodrigo
+  - Enrique
+  - César
+  - Álvaro
+
+
+# ____________________________________________________________
+
+  # # 🐧 Linux Distributions (40 names)
+  # # Enterprise/Server Focused (20)
+  - CentOS
+  - RHEL
+  - Ubuntu
+  - Debian
+  - SUSE
+  - Oracle
+  - Rocky
+  - Alma
+  - Fedora
+  - ClearOS
+  - Euro
+  - Cloud
+  - Miracle
+  - Asianux
+  - EulerOS
+  - Virtuozzo
+  - Springdale
+  - Fermi
+  - Scientific
+  - Mint
+  - Fedora
+  - Pop!OS
+  - Elementary
+  - ZorinOS
+  - Manjaro
+  - Kali
+  - MX
+  - Deepin
+  - Solus
+  - Puppy
+  - Lubuntu
+  - Xubuntu
+  - Kubuntu
+  - EndeavourOS
+  - Arco
+  - Garuda
+  - Nitrux
+  - PeppermintOS
+  - Tails
+  - QubesOS
+  - ParrotOS
+  - Arch
+  - Gentoo
+  - Slackware
+  - Void
+  - Alpine
+  - NixOS
+  - Clear
+
+# 🇦🇫 افغانستان (دری / پشتو — 40 names)
+  - فریبا
+  - مریم
+  - شکیلا
+  - فاطمه
+  - فرشته
+  - سارا
+  - صدیقه
+  - نیلوفر
+  - سلیمه
+  - زرغونه
+  - لیلا
+  - نرگس
+  - سحر
+  - مهناز
+  - پریسا
+  - آرزو
+  - عاطفه
+  - راضیه
+  - شبنم
+  - یاسمین
+  - احمد
+  - علی
+  - محمد
+  - جمال
+  - ذبیح
+  - رحمت
+  - نصیر
+  - قاسم
+  - فیض
+  - امین
+  - عبدالله
+  - محمود
+  - نعمت
+  - سید
+  - کامران
+  - سهراب
+  - طارق
+  - ضیاء
+  - شیرزاد
+  - وحید
+
+# 🇦🇱 Shqipëria (Shqip — 40 names)
+  - Elira
+  - Arta
+  - Drita
+  - Ilira
+  - Flutura
+  - Valbona
+  - Teuta
+  - Erjona
+  - Blerta
+  - Gentiana
+  - Mirela
+  - Lule
+  - Pranvera
+  - Shpresa
+  - Blerina
+  - Anxhela
+  - Lindita
+  - Donika
+  - Albana
+  - Edlira
+  - Arben
+  - Ilir
+  - Blerim
+  - Shkëlzen
+  - Besnik
+  - Kujtim
+  - Fatos
+  - Artan
+  - Skënder
+  - Granit
+  - Valon
+  - Erjon
+  - Genti
+  - Enkel
+  - Kastriot
+  - Agron
+  - Mentor
+  - Flamur
+  - Dritan
+  - Visar
+
+# 🇩🇿 الجزائر (Arabic / Tamazight — 40 names)
+  - فاطمة
+  - جميلة
+  - سميرة
+  - ليلى
+  - نجاة
+  - نادية
+  - زهرة
+  - هدى
+  - راضية
+  - شريفة
+  - نوال
+  - كريمة
+  - بهية
+  - فريال
+  - منيرة
+  - عائشة
+  - فريدة
+  - ليلى
+  - جميلة
+  - ياسمين
+  - محمد
+  - أحمد
+  - حسين
+  - علي
+  - عبد القادر
+  - سعيد
+  - مراد
+  - سفيان
+  - لطفي
+  - كريم
+  - ناصر
+  - يونس
+  - فاروق
+  - رشيد
+  - عبد الرزاق
+  - عبد الله
+  - فوزي
+  - جمال
+  - عبد الرحمن
+  - بلال
+
+# 🇦🇸 Amerika Sāmoa (Gagana Sāmoa — 40 names)
+  - Talalelei
+  - Fa’aliga
+  - Silia
+  - Lanuola
+  - Manuia
+  - Faimafili
+  - Taua
+  - Sosene
+  - Vaimasenuu
+  - Lagi
+  - Lupe
+  - Tausa’afia
+  - Malaefou
+  - Fetu
+  - Taufai
+  - Vasa
+  - Sosina
+  - Ipu
+  - Mele
+  - Sulu’ape
+  - Ioane
+  - Peniamina
+  - Fale
+  - Sione
+  - Tupua
+  - Mauga
+  - Tofa
+  - Faleomavaega
+  - Tasi
+  - Fa’avae
+  - Manu
+  - Puleleiite
+  - Leala
+  - Lutali
+  - Tauiliili
+  - Togiola
+  - Feleti
+  - Nua
+  - Atuaia
+  - Fuala’au
+
+# 🇦🇩 Andorra (Català — 40 names)
+  - Montserrat
+  - Eulàlia
+  - Neus
+  - Meritxell
+  - Núria
+  - Laia
+  - Carme
+  - Roser
+  - Dolors
+  - Josefina
+  - Clàudia
+  - Sílvia
+  - Marta
+  - Lídia
+  - Gemma
+  - Anna
+  - Pilar
+  - Irene
+  - Aina
+  - Estel
+  - Jordi
+  - Francesc
+  - Pere
+  - Ramon
+  - Joan
+  - Antoni
+  - Miquel
+  - Albert
+  - Toni
+  - Xavier
+  - Marc
+  - Andreu
+  - Pol
+  - Oriol
+  - Ferran
+  - Víctor
+  - Roger
+  - Gil
+  - Arnau
+  - Jaume
+
+  # 🇦🇴 Angola (Português — 40 nomes)
+  - Maria
+  - Ana
+  - Isabel
+  - Joana
+  - Teresa
+  - Luísa
+  - Filomena
+  - Helena
+  - Ivone
+  - Celeste
+  - Rosa
+  - Lourdes
+  - Carla
+  - Beatriz
+  - Salomé
+  - Tatiana
+  - Cândida
+  - Leonor
+  - Vera
+  - Clarisse
+  - José
+  - António
+  - Domingos
+  - Manuel
+  - Paulo
+  - Carlos
+  - Pedro
+  - Joaquim
+  - Francisco
+  - Miguel
+  - Fernando
+  - Salvador
+  - Gilberto
+  - Afonso
+  - Armando
+  - Edson
+  - Benedito
+  - Filipe
+  - Sebastião
+  - Luís
+
+# 🇦🇮 Anguilla (English/Caribbean — 40 names)
+  - Keisha
+  - Marcia
+  - Ann-Marie
+  - Tanya
+  - Desiree
+  - Latoya
+  - Janice
+  - Charlene
+  - Kimberly
+  - Natasha
+  - Denise
+  - Tricia
+  - Lorraine
+  - Wendy
+  - Yvette
+  - Althea
+  - Michelle
+  - Patrice
+  - Nicole
+  - Sabrina
+  - Tyrone
+  - Desmond
+  - Lennox
+  - Nigel
+  - Orville
+  - Garth
+  - Derrick
+  - Trevor
+  - Andrew
+  - Wayne
+  - Anthony
+  - Calvin
+  - Leon
+  - Marlon
+  - Clive
+  - Garfield
+  - Dwight
+  - Kirk
+  - Sean
+  - Ricardo
+
+# 🇦🇶 Antarctica (International names — 40 names)
+  - Emma
+  - Olivia
+  - Isabella
+  - Sophia
+  - Charlotte
+  - Amelia
+  - Emily
+  - Grace
+  - Hannah
+  - Abigail
+  - Ava
+  - Mia
+  - Ella
+  - Scarlett
+  - Victoria
+  - Chloe
+  - Zoe
+  - Lily
+  - Aria
+  - Nora
+  - Liam
+  - Noah
+  - William
+  - James
+  - Logan
+  - Lucas
+  - Mason
+  - Ethan
+  - Alexander
+  - Jacob
+  - Benjamin
+  - Elijah
+  - Daniel
+  - Michael
+  - Matthew
+  - Henry
+  - Jackson
+  - Levi
+  - Sebastian
+  - Owen
+
+# 🇦🇬 Antigua and Barbuda (English/Caribbean — 40 names)
+  - Shanice
+  - Laverne
+  - Kayla
+  - Alicia
+  - Dionne
+  - Krystal
+  - Janique
+  - Marsha
+  - Delia
+  - Shakira
+  - Alisha
+  - Celeste
+  - Janelle
+  - Nikita
+  - Trina
+  - Vanessa
+  - Nadine
+  - Rochelle
+  - Tiffany
+  - Simone
+  - Kemar
+  - Dwayne
+  - Jermaine
+  - Devon
+  - Shaquille
+  - Andre
+  - Jason
+  - Maurice
+  - Lloyd
+  - Orlando
+  - Leonard
+  - Trevon
+  - Mikhail
+  - Ramon
+  - Tyrik
+  - Glenroy
+  - Dwain
+  - Shawn
+  - Brent
+  - Quentin
+
+# 🇦🇼 Aruba (Papiamento/Dutch/Spanish mix — 40 names)
+  - Yasmin
+  - Anushka
+  - Lisette
+  - Marisol
+  - Nohely
+  - Katiuska
+  - Dayana
+  - Ivelisse
+  - Carla
+  - Soraya
+  - Melisa
+  - Sharin
+  - Odalis
+  - Iliana
+  - Yesenia
+  - Leandra
+  - Dilcia
+  - Giselle
+  - Patricia
+  - Raquel
+  - Arsenio
+  - Jorge
+  - Carlos
+  - Luis
+  - Miguel
+  - Fernando
+  - Emilio
+  - Rafael
+  - Pedro
+  - Julio
+  - Mauricio
+  - Orlando
+  - Andres
+  - Samuel
+  - Ricardo
+  - Freddy
+  - Oscar
+  - Victor
+  - Esteban
+  - Javier
+
+# 🇦🇺 Australia (English — 40 names)
+  - Olivia
+  - Charlotte
+  - Amelia
+  - Isla
+  - Mia
+  - Ava
+  - Grace
+  - Chloe
+  - Matilda
+  - Sophie
+  - Ella
+  - Ruby
+  - Zoe
+  - Evie
+  - Lily
+  - Ivy
+  - Willow
+  - Aria
+  - Harper
+  - Hannah
+  - Oliver
+  - Noah
+  - William
+  - Jack
+  - Leo
+  - Lucas
+  - Henry
+  - Liam
+  - Charlie
+  - Thomas
+  - Ethan
+  - Alexander
+  - Harrison
+  - James
+  - Mason
+  - Isaac
+  - Cooper
+  - Elijah
+  - Archie
+  - Xavier
+
+# 🇦🇿 Azərbaycan (Azərbaycan dili — 40 ad)
+  - Aygün
+  - Ləman
+  - Nigar
+  - Sevinc
+  - Zəhra
+  - Günel
+  - Fidan
+  - Aytən
+  - Şəbnəm
+  - Rəna
+  - Arzu
+  - Samirə
+  - Nazlı
+  - Rübabə
+  - Rövşənə
+  - Rəhimə
+  - Leyla
+  - Züleyxa
+  - Əminə
+  - Solmaz
+  - Elnur
+  - Kamran
+  - Rauf
+  - Tural
+  - Vüqar
+  - Samir
+  - Natiq
+  - Elvin
+  - Rəşad
+  - Elçin
+  - Şahin
+  - Murad
+  - Ilqar
+  - Fuad
+  - Teymur
+  - Eldar
+  - Farid
+  - Anar
+  - Javid
+  - Orxan
+
+# 🇧🇸 Bahamas (English/Caribbean — 40 names)
+  - Shanell
+  - Keva
+  - Latisha
+  - Monique
+  - Deandra
+  - Anika
+  - Tameka
+  - Rochelle
+  - Kendra
+  - Tashina
+  - Kimberly
+  - Yasmine
+  - Marissa
+  - Nerissa
+  - Valencia
+  - Trisha
+  - Charlene
+  - Renee
+  - Sherice
+  - Anastacia
+  - Dario
+  - Kendrick
+  - Trevor
+  - Dwayne
+  - Leonardo
+  - Marcus
+  - Sean
+  - Lynden
+  - Adrian
+  - Jermaine
+  - Gavin
+  - Patrick
+  - Devon
+  - Omar
+  - Anthony
+  - Donovan
+  - Gregory
+  - Shawn
+  - Brent
+  - Andre
+
+# 🇧🇭 البحرين (العربية — 40 أسماء)
+  - فاطمة
+  - خديجة
+  - مريم
+  - آمنة
+  - زينب
+  - هند
+  - رزان
+  - ليلى
+  - أروى
+  - نور
+  - نورة
+  - جميلة
+  - سلوى
+  - شهد
+  - دلال
+  - حصة
+  - سميرة
+  - عالية
+  - شيماء
+  - ميساء
+  - محمد
+  - أحمد
+  - علي
+  - حسن
+  - سلمان
+  - جعفر
+  - فواز
+  - منصور
+  - يوسف
+  - صادق
+  - حسين
+  - بدر
+  - فهد
+  - طارق
+  - خالد
+  - عبدالله
+  - مازن
+  - سعيد
+  - سيف
+  - نواف
+
+# 🇧🇩 বাংলাদেশ (বাংলা — 40 নাম)
+  - সাবিনা
+  - রোজিনা
+  - ফারজানা
+  - নাজমা
+  - শারমিন
+  - শামিমা
+  - সাবিহা
+  - হাসনা
+  - রোকসানা
+  - মাহমুদা
+  - মালেকা
+  - নাসরিন
+  - সুলতানা
+  - রেহানা
+  - আক্তার
+  - সালমা
+  - লতিফা
+  - বুলবুল
+  - জেবুন
+  - সানজিদা
+  - মোঃ
+  - আব্দুল
+  - মুহাম্মদ
+  - আলমগীর
+  - শফিক
+  - রফিক
+  - জাকির
+  - মাসুদ
+  - নাসির
+  - আশরাফ
+  - ইমরান
+  - ফারুক
+  - রাশেদ
+  - বদরুল
+  - তানভীর
+  - আজিজ
+  - সাইফুল
+  - নওশাদ
+  - হাসান
+  - সুমন
+
+# 🇧🇧 Barbados (English/Caribbean — 40 names)
+  - Shanika
+  - Leandra
+  - Alicia
+  - Tamika
+  - Sherika
+  - Danielle
+  - Ann-Marie
+  - Keisha
+  - Latoya
+  - Alana
+  - Rochelle
+  - Khadija
+  - Simone
+  - Juliette
+  - Nikisha
+  - Cheryl
+  - Monique
+  - Charmaine
+  - Tiffany
+  - Marsha
+  - Jamal
+  - Andre
+  - Shamar
+  - Dwayne
+  - Tyrone
+  - Rashawn
+  - Orville
+  - Marvin
+  - Jermaine
+  - Desmond
+  - Dwight
+  - Antonio
+  - Kemar
+  - Trevon
+  - Shaquille
+  - Lennox
+  - Devon
+  - Leon
+  - Clive
+  - Ricardo
+
+# 🇧🇿 Belize (Multilingual — 40 names)
+  - Marleni
+  - Griselda
+  - Yolanda
+  - Delmi
+  - Maritza
+  - Anabella
+  - Elsa
+  - Claribel
+  - Jessenia
+  - Rosita
+  - Nadia
+  - Leticia
+  - Tania
+  - Carmelita
+  - Estrella
+  - Brenda
+  - Flor
+  - Karina
+  - Melanie
+  - Diana
+  - Carlos
+  - Luis
+  - Javier
+  - Antonio
+  - Francisco
+  - Raul
+  - Oscar
+  - Jose
+  - Marcos
+  - Ricardo
+  - Santos
+  - Ismael
+  - Edgar
+  - Armando
+  - Victor
+  - Nelson
+  - Ruben
+  - Angel
+  - Manuel
+  - David
+
+# 🇧🇯 Bénin (Multilingual — 40 noms)
+  - Akossiwa
+  - Adjovi
+  - Kafui
+  - Sika
+  - Dossou
+  - Afi
+  - Ayawa
+  - Ahouefa
+  - Sessi
+  - Nadège
+  - Séverine
+  - Clarisse
+  - Victoire
+  - Germaine
+  - Hélène
+  - Isabelle
+  - Ange
+  - Marina
+  - Rolande
+  - Patricia
+  - Kossi
+  - Kodjo
+  - Yawovi
+  - Komlan
+  - Ablavi
+  - Pascal
+  - Sylvain
+  - Gilbert
+  - Florent
+  - Olivier
+  - Émile
+  - Jean
+  - Benoît
+  - Claude
+  - Serge
+  - Cédric
+  - Justin
+  - Paul
+  - Alain
+  - Félix
+
+# 🇧🇲 Bermuda (English — 40 names)
+  - Shauna
+  - Lisa
+  - Marcia
+  - Kerri
+  - Denise
+  - Tanya
+  - Nicole
+  - Katherine
+  - Patricia
+  - Linda
+  - Heather
+  - Susan
+  - Dawn
+  - Yvette
+  - Deborah
+  - Lorraine
+  - Wendy
+  - Cynthia
+  - Joanne
+  - Karen
+  - Scott
+  - Kevin
+  - Stephen
+  - Mark
+  - Jeffrey
+  - Brian
+  - Derrick
+  - Shawn
+  - Anthony
+  - Michael
+  - Phillip
+  - Keith
+  - Douglas
+  - Jason
+  - Trevor
+  - Gregory
+  - Darren
+  - Raymond
+  - Wayne
+  - Leonard
+
+# 🇧🇹 འབྲུག་ཡུལ་ (Dzongkha — 40 names)
+  - མཁས་མོ
+  - དར་མ
+  - རྒྱལ་མོ
+  - སྐྱིད་མོ
+  - སྤྱི་མོ
+  - འབྲི་མ
+  - དབྱངས་མ
+  - སྐུ་མཆེད
+  - སྤྲུལ་མོ
+  - ལྷ་མོ
+  - མཁས་པ
+  - བདེ་མོ
+  - མཛེས་མ
+  - གཟི་མོ
+  - ཡེ་ཤེས
+  - ལྷ་མོ
+  - རྒྱལ་སྲས
+  - འབྲོག་མོ
+  - སྒྲོལ་མ
+  - མཁའ་སྤྱོད
+  - བསྟན་འཛིན
+  - རིན་ཆེན
+  - འཇམ་དབྱངས
+  - སྟོན་པ
+  - སྐུ་རུས
+  - ཆོས་རབ
+  - འཇིགས་མེད
+  - སངས་རྒྱས
+  - བསོད་ནམས
+  - ལགས་པ
+  - དབང་པོ
+  - བཀྲ་ཤིས
+  - སྨན་བླ
+  - ལྷུན་གྲུབ
+  - བློ་བཟང་
+  - བསྐལ་བསྟན
+  - རྒྱལ་བ
+  - འོད་ལྡན
+  - འཕགས་པ
+  - སྐུ་བཟང
+
+# 🇧🇴 Bolivia (Español — 40 nombres)
+  - María
+  - Ana
+  - Carmen
+  - Roxana
+  - Lidia
+  - Josefa
+  - Ignacia
+  - Adela
+  - Luisa
+  - Soledad
+  - Antonia
+  - Estela
+  - Gloria
+  - Inés
+  - Margarita
+  - Mercedes
+  - Patricia
+  - Rosa
+  - Silvia
+  - Verónica
+  - Juan
+  - José
+  - Luis
+  - Carlos
+  - Marco
+  - Raúl
+  - Antonio
+  - Fernando
+  - Jorge
+  - Óscar
+  - Miguel
+  - Roberto
+  - Víctor
+  - Pablo
+  - Gonzalo
+  - Eduardo
+  - Hernán
+  - César
+  - Rubén
+  - Alfredo
+
+# 🇧🇶 Bonaire (Multilingual — 40 names)
+  - Lisandra
+  - Annely
+  - Soraida
+  - Marisabel
+  - Giselle
+  - Yesenia
+  - Roselinda
+  - Anoushka
+  - Jamilia
+  - Yolanda
+  - Clarissa
+  - Tamira
+  - Chanty
+  - Ismara
+  - Dulce
+  - Mirella
+  - Odalis
+  - Indira
+  - Nohely
+  - Patricia
+  - Armando
+  - Marcelino
+  - Carlos
+  - Jairo
+  - Emilio
+  - Josue
+  - Ricardo
+  - Rafael
+  - Andres
+  - Julio
+  - Mauricio
+  - Pascual
+  - Freddy
+  - Samuel
+  - Orlando
+  - Diego
+  - Victor
+  - Luis
+  - Alfonso
+  - Javier
+
+# 🇧🇦 Bosna i Hercegovina (Latin & Cyrillic — 40 names)
+  - Amira
+  - Selma
+  - Lejla
+  - Aida
+  - Emina
+  - Ajla
+  - Mirela
+  - Jasmina
+  - Anesa
+  - Azra
+  - Dragana
+  - Marina
+  - Ivana
+  - Tanja
+  - Milena
+  - Katarina
+  - Nada
+  - Ljiljana
+  - Vesna
+  - Sanja
+  - Haris
+  - Adnan
+  - Dino
+  - Samir
+  - Mirza
+  - Tarik
+  - Edin
+  - Nedim
+  - Sead
+  - Jasmin
+  - Slobodan
+  - Zoran
+  - Nikola
+  - Milorad
+  - Dražen
+  - Marko
+  - Goran
+  - Dejan
+  - Stefan
+  - Nenad
+
+# 🇧🇼 Botswana (Setswana — 40 names)
+  - Keitumetse
+  - Kgomotso
+  - Naledi
+  - Boitumelo
+  - Dineo
+  - Lorato
+  - Lesego
+  - Palesa
+  - Rethabile
+  - Mpho
+  - Tshegofatso
+  - Neo
+  - Kutloano
+  - Omphile
+  - Amogelang
+  - Tlotlo
+  - Refilwe
+  - Tebogo
+  - Oabona
+  - Lebo
+  - Kabelo
+  - Thabo
+  - Onkarabile
+  - Tumisang
+  - Katlego
+  - Tshepo
+  - Phenyo
+  - Lesego
+  - Goitsemodimo
+  - Otsile
+  - Kagiso
+  - Ditiro
+  - Bakang
+  - Gosego
+  - Kefilwe
+  - Tiro
+  - Bame
+  - Neo
+  - Mogomotsi
+  - Kealeboga
+
+# 🇧🇻 Bouvetøya (Norwegian — 40 navn)
+  - Ingrid
+  - Marte
+  - Sunniva
+  - Kari
+  - Liv
+  - Hanne
+  - Kristin
+  - Silje
+  - Camilla
+  - Åse
+  - Anne
+  - Tiril
+  - Sigrid
+  - Solveig
+  - Ragnhild
+  - Bente
+  - Elisabeth
+  - Grete
+  - Lene
+  - Mona
+  - Lars
+  - Ole
+  - Knut
+  - Bjørn
+  - Tore
+  - Anders
+  - Per
+  - Erik
+  - Trond
+  - Stein
+  - Harald
+  - Pål
+  - Svein
+  - Jens
+  - Thomas
+  - Arne
+  - Roar
+  - Nils
+  - Fredrik
+  - Magnus
+
+# 🇧🇮 Burundi (French)
+  - Clémentine
+  - Marie
+  - Chantal
+  - Bernadette
+  - Consolata
+  - Diane
+  - Agnès
+  - Euphrasie
+  - Joséphine
+  - Thérèse
+  - Séraphine
+  - Odette
+  - Vestine
+  - Véronique
+  - Immaculée
+  - Colette
+  - Rosine
+  - Liliane
+  - Marguerite
+  - Émeline
+  - Jean
+  - Pierre
+  - Aimé
+  - Dieudonné
+  - Emmanuel
+  - Alexis
+  - Léonard
+  - Anatole
+  - Pascal
+  - Simon
+  - Joseph
+  - Laurent
+  - Félicien
+  - Bonaventure
+  - Prosper
+  - Alphonse
+  - Isidore
+  - Gaspard
+  - Valéry
+  - Clovis
+
+# 🇨🇻 Cabo Verde (Português)
+  - Marilene
+  - Gracinda
+  - Djamila
+  - Nair
+  - Isabel
+  - Adelaide
+  - Celina
+  - Jacinta
+  - Ivone
+  - Albertina
+  - Filomena
+  - Eunice
+  - Verónica
+  - Tatiane
+  - Rosária
+  - Josefa
+  - Anabela
+  - Vânia
+  - Lúcia
+  - Madalena
+  - Manuel
+  - José
+  - António
+  - Carlos
+  - João
+  - Paulo
+  - Francisco
+  - Alfredo
+  - Arlindo
+  - Domingos
+  - Amílcar
+  - César
+  - Fernando
+  - Jorge
+  - Rui
+  - Valdir
+  - Edson
+  - Joaquim
+  - Teodoro
+  - Vítor
+
+# 🇧🇫 Burkina Faso (French/African)
+  - Awa
+  - Fati
+  - Mariam
+  - Salimata
+  - Hadja
+  - Aminata
+  - Fatou
+  - Rokia
+  - Yacine
+  - Rasmata
+  - Adjara
+  - Bintou
+  - Djeneba
+  - Haoua
+  - Nafissatou
+  - Safiatou
+  - Kadiatou
+  - Zeinabou
+  - Assita
+  - Habi
+  - Abdoulaye
+  - Moussa
+  - Issaka
+  - Oumarou
+  - Yacouba
+  - Seydou
+  - Bouba
+  - Ali
+  - Amadou
+  - Bakary
+  - Harouna
+  - Salif
+  - Ibrahim
+  - Mahamadou
+  - Lassina
+  - Fousseini
+  - Siaka
+  - Adama
+  - Boubacar
+  - Tiemoko
+
+# 🇧🇳 Brunei Darussalam (Jawi script)
+  - نورعيني
+  - سيتي
+  - زينب
+  - روحانة
+  - حصلينا
+  - فريدة
+  - نورول
+  - عين
+  - دايانغكو
+  - مازنه
+  - رُسمه
+  - هنيم
+  - سُهانا
+  - حليمة
+  - عائشة
+  - لطيفة
+  - شريفة
+  - سلبية
+  - ليانا
+  - عديلة
+  - محمد
+  - حاجي
+  - أوانغ
+  - سيفول
+  - حكيم
+  - عزلان
+  - إسماعيل
+  - زلقفلي
+  - رضوان
+  - ناصر
+  - فقري
+  - رشيد
+  - جنيدي
+  - فِردوس
+  - رُسلي
+  - مازلان
+  - رحيم
+  - أسرول
+  - شهرول
+  - إبراهيم
+
+
+# 🇮🇴 British Indian Ocean Territory (English + Hindi)
+  - Amelia
+  - Benjamin
+  - Charlotte
+  - Daniel
+  - Edward
+  - Emily
+  - Freya
+  - George
+  - Hannah
+  - Harry
+  - Isla
+  - Jack
+  - James
+  - Jessica
+  - Lily
+  - Oliver
+  - Sophie
+  - Thomas
+  - William
+  - Zara
+  - प्रिया
+  - अनन्या
+  - आदिति
+  - सान्वी
+  - इशिता
+  - मीरा
+  - रिया
+  - नंदिनी
+  - पूजा
+  - किरण
+  - अर्जुन
+  - रोहन
+  - राहुल
+  - कार्तिक
+  - विक्रम
+  - आदित्य
+  - सिद्धार्थ
+  - अमित
+  - देव
+  - मनीष
+
+# ____________________________________________________________
+  - کابل                # Afghanistan (Pashto/Dari)
+  - Tiranë              # Albania (Albanian)
+  - الجزائر             # Algeria (Arabic)
+  - Pago Pago           # American Samoa (English)
+  - Andorra la Vella    # Andorra (Catalan)
+  - Luanda              # Angola (Portuguese)
+  - The Valley          # Anguilla (English)
+  - St. John's          # Antigua and Barbuda (English)
+  - Canberra            # Australia (English)
+  - Wien                # Austria (German)
+  - باکو                # Azerbaijan (Azerbaijani Bakı)
+  - Nassau              # Bahamas (English)
+  - المنامة             # Bahrain (Arabic)
+  - ঢাকা                 # Bangladesh (Bengali)
+  - Bridgetown          # Barbados (English)
+  - Мінск               # Беларусь (Belarusian/Руская — Cyrillic/Latin)
+  - Bruxelles           # Belgium (French/Dutch)
+  - Belmopan            # Belize (English)
+  - Porto-Novo          # Benin (French)
+  - Thimphu             # Bhutan (English)
+  - Sucre               # Bolivia (Spanish)
+  - Sarajevo            # Bosnia and Herzegovina (Bosnian Latin)
+  - Gaborone            # Botswana (English)
+  - Brasília            # Brazil (Portuguese)
+  - Bandar Seri Begawan # Brunei (Malay)
+  - Sofia               # Bulgaria (Bulgarian Cyrillic)
+  - Ouagadougou         # Burkina Faso (French)
+  - Bujumbura           # Burundi (French/Kirundi)
+  - Phnom Penh          # Cambodia (Khmer)
+  - Yaoundé             # Cameroon (French)
+  - Ottawa              # Canada (English/French)
+  - Praia               # Cabo Verde (Portuguese)
+  - Bangui              # Central African Republic (French)
+  - N'Djaména           # Chad (French)
+  - Santiago            # Chile (Spanish)
+  - 北京                 # China (Chinese)
+  - Bogotá              # Colombia (Spanish)
+  - Moroni              # Comoros (French/Arabic)
+  - Brazzaville         # Congo (French)
+  - San José            # Costa Rica (Spanish)
+  - Zagreb              # Croatia (Croatian)
+  - La Habana           # Cuba (Spanish)
+  - Nicosia             # Cyprus (Greek/Turkish)
+  - Praha               # Czech Republic (Czech)
+  - København           # Denmark (Danish)
+  - Djibouti            # Djibouti (French)
+  - Roseau              # Dominica (English)
+  - Santo Domingo       # Dominican Republic (Spanish)
+  - Dili                # Timor-Leste (Portuguese/Tetum)
+  - Quito               # Ecuador (Spanish)
+  - القاهرة             # Egypt (Arabic)
+  - San Salvador        # El Salvador (Spanish)
+  - Malabo              # Equatorial Guinea (Spanish)
+  - Asmara              # Eritrea (Tigrinya)
+  - Tallinn             # Estonia (Estonian)
+  - Mbabane             # Eswatini (English/Swati)
+  - Addis Ababa         # Ethiopia (Amharic)
+  - Suva                # Fiji (English)
+  - Helsinki            # Finland (Finnish/Swedish)
+  - Paris               # France (French)
+  - Libreville          # Gabon (French)
+  - Banjul              # Gambia (English)
+  - თბილისი             # Georgia (ქართული — Georgian Mkhedruli script)
+  - Berlin              # Germany (German)
+  - Accra               # Ghana (English)
+  - Αθήνα               # Greece (Greek)
+  - Nuuk                # Greenland (Kalaallisut/Danish)
+  - St. George's        # Grenada (English)
+  - Guatemala City      # Guatemala (Spanish)
+  - Conakry             # Guinea (French)
+  - Bissau              # Guinea-Bissau (Portuguese)
+  - Georgetown          # Guyana (English)
+  - Port-au-Prince      # Haiti (French/Creole)
+  - Tegucigalpa         # Honduras (Spanish)
+  - Budapest            # Hungary (Hungarian)
+  - Reykjavík           # Iceland (Icelandic)
+  - New Delhi           # India (English/Hindi)
+  - Jakarta             # Indonesia (Indonesian)
+  - تهران               # Iran (Persian)
+  - بغداد               # Iraq (Arabic)
+  - Dublin              # Ireland (English/Irish)
+  - ירושלים             # Israel (Hebrew)
+  - Roma                # Italy (Italian)
+  - Kingston            # Jamaica (English)
+  - 東京                 # Japan (Japanese)
+  - عمان                # Jordan (Arabic)
+  - Astana              # Kazakhstan (Kazakh Cyrillic)
+  - Nairobi             # Kenya (English/Swahili)
+  - Tarawa              # Kiribati (English/Gilbertese)
+  - Pyongyang           # North Korea (Korean)
+  - 서울                 # South Korea (Korean)
+  - مدينة الكويت        # Kuwait (Arabic)
+  - Бишкек              # Kyrgyzstan (Кыргызча — Kyrgyz Cyrillic)
+  - Vientiane           # Laos (Lao)
+  - Rīga                # Latvia (Latvian)
+  - بيروت               # Lebanon (Arabic)
+  - Maseru              # Lesotho (English/Sesotho)
+  - Monrovia            # Liberia (English)
+  - طرابلس              # Libya (Arabic)
+  - Vaduz               # Liechtenstein (German)
+  - Vilnius             # Lithuania (Lithuanian)
+  - Luxembourg          # Luxembourg (Luxembourgish/French/German)
+  - Antananarivo        # Madagascar (Malagasy/French)
+  - Lilongwe            # Malawi (English/Chichewa)
+  - Kuala Lumpur        # Malaysia (Malay)
+  - Malé                # Maldives (Dhivehi)
+  - Bamako              # Mali (French)
+  - Valletta            # Malta (Maltese/English)
+  - Majuro              # Marshall Islands (English/Marshallese)
+  - Nouakchott          # Mauritania (Arabic)
+  - Port Louis          # Mauritius (English/French)
+  - Mexico City         # Mexico (Spanish)
+  - Chișinău            # Moldova (Romanian)
+  - Monaco              # Monaco (French)
+  - Улаанбаатар         # Mongolia (Mongolian — official Cyrillic script)
+  - Podgorica           # Montenegro (Montenegrin)
+  - Rabat               # Morocco (Arabic)
+  - Maputo              # Mozambique (Portuguese)
+  - Naypyidaw           # Myanmar (Burmese)
+  - Windhoek            # Namibia (English)
+  - Yaren               # Nauru (Nauruan/English)
+  - Kathmandu           # Nepal (Nepali)
+  - Amsterdam           # Netherlands (Dutch)
+  - Wellington          # New Zealand (English/Māori)
+  - Managua             # Nicaragua (Spanish)
+  - Niamey              # Niger (French)
+  - Abuja               # Nigeria (English)
+  - Oslo                # Norway (Norwegian)
+  - مسقط                # Oman (Arabic)
+  - Islamabad           # Pakistan (Urdu/English)
+  - Ngerulmud           # Palau (English/Palauan)
+  - Panama City         # Panama (Spanish)
+  - Port Moresby        # Papua New Guinea (English)
+  - Asunción            # Paraguay (Spanish)
+  - Lima                # Peru (Spanish)
+  - Manila              # Philippines (Filipino/English)
+  - Warszawa            # Poland (Polish)
+  - Lisboa              # Portugal (Portuguese)
+  - الدوحة              # Qatar (Arabic — official script)
+  - București           # Romania (Romanian/English)
+  - Москва              # Russia (Russian)
+  - Kigali              # Rwanda (Kinyarwanda/French/English)
+  - Basseterre          # Saint Kitts and Nevis (English)
+  - Castries            # Saint Lucia (English)
+  - Kingstown           # Saint Vincent and the Grenadines (English)
+  - Apia                # Samoa (Samoan/English)
+  - San Marino          # San Marino (Italian)
+  - São Tomé            # São Tomé and Príncipe (Portuguese)
+  - الرياض              # Saudi Arabia (Arabic)
+  - Dakar               # Senegal (French)
+  - Београд             # Serbia (Serbian, Cyrillic/Latin)
+  - Victoria            # Seychelles (English/French/Seychellois Creole)
+  - Freetown            # Sierra Leone (English)
+  - Singapore           # Singapore (English/Malay/Chinese/Tamil)
+  - Bratislava          # Slovakia (Slovak)
+  - Ljubljana           # Slovenia (Slovene)
+  - Honiara             # Solomon Islands (English)
+  - Mogadishu           # Somalia (Somali/Arabic)
+  - Pretoria            # South Africa (11 official languages)
+  - Juba                # South Sudan (English)
+  - Madrid              # Spain (Spanish)
+  - Colombo             # Sri Lanka (Sinhala/Tamil)
+  - الخرطوم             # Sudan (Arabic)
+  - Paramaribo          # Suriname (Dutch)
+  - Stockholm           # Sweden (Swedish)
+  - Bern                # Switzerland (German/French/Italian/Romansh)
+  - دمشق                # Syria (Arabic)
+  - Taipei              # Taiwan (Chinese)
+  - Dushanbe            # Tajikistan (Tajik)
+  - Dodoma              # Tanzania (Swahili/English)
+  - กรุงเทพมหานคร        # Thailand (Thai)
+  - Lomé                # Togo (French)
+  - Nukuʻalofa          # Tonga (Tongan/English)
+  - PortofSpain         # Trinidad and Tobago (English)
+  - تونس                # Tunisia (Arabic)
+  - Ankara              # Turkey (Turkish)
+  - Ashgabat            # Turkmenistan (Turkmen)
+  - Funafuti            # Tuvalu (Tuvaluan/English)
+  - Kampala             # Uganda (English/Swahili)
+  - Київ                # Ukraine (Ukrainian)
+  - أبوظبي              # United Arab Emirates (Arabic)
+  - London              # United Kingdom (English)
+  - Washington.D.C      # United States (English)
+  - Montevideo          # Uruguay (Spanish)
+  - Tashkent            # Uzbekistan (Uzbek)
+  - Port Vila           # Vanuatu (Bislama/English/French)
+  - Vatican City        # Vatican City (Latin/Italian)
+  - Caracas             # Venezuela (Spanish)
+  - Hanoi               # Vietnam (Vietnamese)
+  - Sana'a              # Yemen (Arabic)
+  - Lusaka              # Zambia (English)
+  - Harare              # Zimbabwe (English)
+# ____________________________________________________________
+  - Dalv                # English (Latin)
+  - दल्व                  # Hindi (Devanagari)
+  - Далв                #: Russian (Cyrillic)
+  - دَالْف                #: Arabic (Arabic)
+  - 达尔夫               #: Chinese (Simplified Han)
+  - ダルヴ               #: Japanese (Katakana)
+  - 달브                 #: Korean (Hangul)
+  - Νταλβ               #: Greek (Greek)
+  - דַּלְב                 #: Hebrew (Hebrew)
+  - ดาลฟ์                #: Thai (Thai)
+  - ডালভ                #: Bengali (Bengali)
+  - దల్వ్                 #: Telugu (Telugu)
+  - டால்வ்               #: Tamil (Tamil)
+  - ದಲ್ವ್                 #: Kannada (Kannada)
+  - ഡാൽവ്               #: Malayalam (Malayalam)
+  - ዳልቭ                #: Amharic (Ge'ez)
+  - ᎣᏓᎸᏫ                #: Cherokee (Cherokee)
+  - ᑖᓪᕝ                 #: Inuktitut (Canadian Aboriginal Syllabics)
+  - Даљв                #: Serbian (Cyrillic)
+  - Далв                #: Bulgarian (Cyrillic)
+  - Далў                #: Belarusian (Cyrillic)
+  - Δαλβ                #: Ancient Greek (Greek)
+  - ⲆⲀⲖⲂ               #: Coptic (Coptic)
+  - 𐌃𐌀𐌋𐌅               #: Etruscan (Old Italic)
+  - �𐩣𐩡𐩥                #: Old South Arabian (Musnad)
+  - 𒁕𒀠𒉿             #: Sumerian (Cuneiform)
+  - 𓂧𓄿𓃭𓆑           #: Egyptian (Hieroglyphs)
+  - 𐡃𐡀𐡋𐡅                #: Aramaic (Imperial Aramaic)
+  - 𐭃𐭀𐭋𐭅                #: Pahlavi (Inscriptional Parthian)
+  - ᛞᚨᛚᚢ               #: Old Norse (Runes)
+  - ꚁꚀꙂꙊ               #: Old Church Slavonic (Glagolitic)
+  - 𑀤𑀮𑀯                 #: Prakrit (Brahmi)
+  - 𑆠𑆩𑆴𑆶                 #: Kashmiri (Sharada)
+  - 𑌦𑌲𑌵𑍍                #: Sanskrit (Grantha)
+  - དཱལྦྷ                  #: Tibetan (Tibetan)
+  - ᮓᮜ᮪ᮗ᮪               #: Sundanese (Sundanese)
+  - ꦢꦭ꧀ꦮ                #: Javanese (Javanese)
+  - ᜇᜎ᜔ᜊ               #: Tagalog (Baybayin)
+  - ដាលវ               #: Khmer (Khmer)
+  - ດານວ               #: Lao (Lao)
+  - ဒါလ်ဗ              #: Burmese (Burmese)
+  - ᤔᤠᤛᤡ                #: Limbu (Limbu)
+  - ᥘᥣᥖᥴᥝᥴ             #: Tai Nüa (Tai Le)
+  - ᦡᦱᦟᦧ              #: Tai Lue (New Tai Lue)
+  - 𑂠𑂰𑂪𑂫               #: Bhojpuri (Kaithi)
+  - 𑄘𑄮𑄣𑄴𑄖𑄴             #: Chakma (Chakma)
+  - 𑇚𑇡𑇭𑇴             #: Sinhala (Sinhala)
+  - ᬤᬮ᭄ᬯ              #: Balinese (Balinese)
+  - ᯑᯞ᯲ᯅ            #: Batak (Batak)
+  - ᜣ᜴ᜩ᜴               #: Buhid (Buhid)
+  - ᝯᝠᝦᝫ           #: Hanunóo (Hanunóo)
+  - 𑴌𑴑𑴦𑴳             #: Mandaic (Mandaic)
+  - ࡃࡀࡋࡅ                #: Mandaic (Classical)
+  - 𒁕𒀠𒈬             #: Akkadian (Cuneiform)
+  - 𐎄𐎀𐎍𐎆              #: Ugaritic (Ugaritic)
+  - 𐤃𐤀𐤋𐤅            #: Phoenician (Phoenician)
+  - 𐡃𐡀𐡋𐡅            #: Syriac (Syriac)
+  - 𐭃𐭀𐭋𐭅            #: Parthian (Inscriptional)
+  - 𐫅𐫀𐫓𐫇            #: Manichaean (Manichaean)
+  - 𐼹𐼰𐼻𐼴            #: Sogdian (Sogdian)
+  - 𐽁𐽀𐽂𐽄            #: Old Uyghur (Old Uyghur)
+  - ꡊꡖꡙꡓ              #: 'Phags-pa ('Phags-pa)
+  - 𐒸𐒰𐒻𐒿              #: Osmanya (Osmanya)
+  - ⴷⴰⵍⵯ                #: Tifinagh (Berber)
+  - ᏓᎵᎥ                 #: Cherokee (Cherokee)
+  - 𐓘𐓟𐓤𐓪              #: Osage (Osage)
+  - 𐒻𐓟𐓤𐓪              #: Osage (Alternate)
+  - 𐔳𐔰𐔾𐔶              #: Caucasian Albanian (Caucasian Albanian)
+  - 𐭈𐭀𐭋𐭅              #: Avestan (Avestan)
+  - 𐬛𐬀𐬮𐬎              #: Avestan (Alternate)
+  - 𐨡𐨫𐨿𐨬             #: Gandhari (Kharosthi)
+  - �𐐪𐐹𐐮              #: Deseret (Deseret)
+  - 𖼀𖽙𖾐𖾑             #: Miao (Pahawh Hmong)
+  - ꚌꚉꚎꚔ                #: Vai (Vai)
+  - 𖩠𖩑𖩘𖩓              #: Nushu (Nüshu)
+  - ꖸꖬꖦꖕ                #: Adlam (Adlam)
+  - 𐲓𐲀𐳡𐲮              #: Old Hungarian (Rovás)
+  - 𐱅𐰀𐰞𐰉              #: Old Turkic (Orkhon)
+  - 𐰓𐰞𐰉               #: Old Turkic (Alternate)
+  - 𐰃𐰑𐰞𐰉              #: Old Turkic (Yenisei)
+  - 𐭲𐭠𐭩𐭥              #: Pahlavi (Book)
+  - 𐫤𐫀𐫡𐫇              #: Psalter (Pahlavi)
+  - 𑁓𑁔𑁕𑁖              #: Brahmi (Numbers)
+  - 𑇡𑇢𑇣𑇤              #: Sinhala Archaic (Numbers)
+  - 𑋱𑋲𑋳𑋴              #: Khudawadi (Numbers)
+  - 𑓑𑓒𑓓𑓔              #: Tirhuta (Numbers)
+  - 𑙑𑙒𑙓𑙔              #: Modi (Numbers)
+  - 𑛁𑛂𑛃𑛄              #: Takri (Numbers)
+  - 𑣡𑣢𑣣𑣤              #: Warang Citi (Numbers)
+  - 𑵐𑵑𑵒𑵓              #: Masaram Gondi (Numbers)
+  - 𑱫𑱬𑱭𑱮              #: Bhaiksuki (Numbers)
+  - 𑵸𑵹𑵺𑵻              #: Zanabazar Square (Numbers)
+  - 𑶠𑶡𑶢𑶣              #: Soyombo (Numbers)
+  - 𒐕𒐖𒐗𒐘              #: Cuneiform (Numbers)
+  - 𝋣𝋤𝋥𝋦                  #: Mayan (Numerals)
+  - 𑁦𑁧𑁨𑁩              #: Tai Tham (Numbers)
+  - 𑃰𑃱𑃲𑃳              #: Sora Sompeng (Numbers)
+  - 𑄸𑄹𑄺𑄻              #: Chakma (Numbers)
+  - 𑇐𑇑𑇒𑇓              #: Sharada (Numbers)
+  - 𑈬𑈭𑈮𑈯              #: Khojki (Numbers)
+  - 𑊰𑊱𑊲𑊳              #: Khudawadi (Alternate)
+  - 𑋰𑋱𑋲𑋳              #: Grantha (Numbers)
+  - 𑑑𑑒𑑓𑑔              #: Newa (Numbers)
+  - 𑓑𑓒𑓓𑓔              #: Tirhuta (Alternate)
+  - 𑙑𑙒𑙓𑙔              #: Modi (Alternate)
+  - 𑛁𑛂𑛃𑛄              #: Takri (Alternate)
+  - 𑣡𑣢𑣣𑣤              #: Warang Citi (Alternate)
+  - 𑵐𑵑𑵒𑵓              #: Masaram Gondi (Alternate)
+  - 𑱫𑱬𑱭𑱮              #: Bhaiksuki (Alternate)
+  - 𑵸𑵹𑵺𑵻              #: Zanabazar Square (Alternate)
+  - 𑶠𑶡𑶢𑶣              #: Soyombo (Alternate)
+# ____________________________________________________________
+  - Vladimir            #: English (Latin)  
+  - व्लादिमीर              #: Hindi (Devanagari)  
+  - ڤلاديمير               #: Arabic (Arabic)  
+  - 弗拉基米尔               #: Chinese (Simplified Han)  
+  - ウラジミール          #: Japanese (Katakana)  
+  - 블라디미르               #: Korean (Hangul)  
+  - Βλαντίμιρ              #: Greek (Greek)  
+  - ולדימיר              #: Hebrew (Hebrew)  
+  - วลาดิมีร์               #: Thai (Thai)  
+  - ভ্লাদিমির              #: Bengali (Bengali)  
+  - వ్లాదిమీర్             #: Telugu (Telugu)  
+  - விளாதிமிர்           #: Tamil (Tamil)  
+  - ವ್ಲಾದಿಮಿರ್           #: Kannada (Kannada)  
+  - വ്ലാദിമിർ             #: Malayalam (Malayalam)  
+  - ቭላዲሚር              #: Amharic (Ge'ez)  
+  - ᎥᎳᏗᎻᎷᎡ               #: Cherokee (Cherokee)  
+  - ᕗᓚᑎᒥᕆ              #: Inuktitut (Canadian Syllabics)  
+  - Уладзімір              #: Belarusian (Cyrillic)  
+  - Ⲫⲗⲁⲇⲓⲙⲓⲣ               #: Coptic (Coptic)  
+  - 𐍅𐌻𐌰𐌳𐌹𐌼𐌹𐍂          #: Gothic (Gothic)  
+  - 𐤅𐤋𐤀𐤃𐤌𐤓            #: Phoenician (Phoenician)  
+  - ܘܠܕܝܡܝܪ              #: Syriac (Syriac)  
+  - 𐡅𐡋𐡀𐡃𐡌𐡓            #: Aramaic (Imperial Aramaic)  
+  - 𐭅𐭋𐭀𐭃𐭌𐭓              #: Pahlavi (Inscriptional Parthian)  
+  - ᚹᛚᚨᛞᛁᛗᛁᚱ               #: Old Norse (Runes)  
+  - ꙀⰎⰀⰄⰋⰏⰊⰓ              #: Old Church Slavonic (Glagolitic)  
+  - 𑀯𑁆𑀮𑀸𑀤𑀺𑀫𑀺𑀭             #: Prakrit (Brahmi)  
+  - 𑆠𑆾𑆫𑆢𑆴𑆩𑆴𑆫             #: Kashmiri (Sharada)  
+  - 𑌵𑍍𑌲𑌾𑌦𑌿𑌮𑌿𑌰             #: Sanskrit (Grantha)  
+  - ཝླཱདིམིར                #: Tibetan (Tibetan)  
+  - ᮝᮣᮓᮤᮙᮤᮁ               #: Sundanese (Sundanese)  
+  - ꦮ꧀ꦭꦢꦶꦩꦶꦫ               #: Javanese (Javanese)  
+  - ᜏ᜔ᜎᜇᜒᜋᜒᜇ              #: Tagalog (Baybayin)  
+  - វ្លាឌីមីរ              #: Khmer (Khmer)  
+  - ວລາດິມິຣ               #: Lao (Lao)  
+  - ဗျာဒီမီဂါ          #: Burmese (Burmese)  
+  - ⴰⵍⴰⴷⵉⵎⵉⵔ         #: Tifinagh (Berber)  
+  - 𐒰𐒿𐒰𐒸𐒹𐒻𐒼           #: Osmanya (Osmanya)  
+  - 𐓪𐓟𐓤𐓘𐓜𐓘𐓣             #: Osage (Osage)  
+  - 𐔰𐔾𐔰𐔳𐔹𐔴𐔸             #: Caucasian Albanian (Caucasian Albanian)  
+  - 𐬬𐬀𐬭𐬀𐬜𐬌𐬨𐬌𐬭             #: Avestan (Avestan)  
+  - 𐨬𐨫𐨗𐨁𐨨𐨁𐨪               #: Gandhari (Kharosthi)  
+  - 𖼈𖽡𖾑𖾓𖾔𖾕                #: Miao (Pahawh Hmong)  
+  - ꔲꔷꔬꘋꔜꘋꔫ          #: Vai (Vai)  
+  - �𐑈𐑀𐑉𐑁𐑊𐑋             #: Deseret (Deseret)  
+  - 𐲦𐳀𐳤𐳨𐳢𐳩𐳮             #: Old Hungarian (Rovás)  
+  - 𐱅𐰇𐰠𐰢𐰃𐰼              #: Old Turkic (Orkhon)  
+  - 𐰈𐰠𐰓𐰢𐰃𐰺              #: Old Turkic (Yenisei)  
+  - 𐭥𐭫𐭠𐭣𐭬𐭩𐭫             #: Pahlavi (Book)  
+  - 𐫇𐫓𐫀𐫅𐫖𐫏𐫡             #: Manichaean (Manichaean)  
+  - 𐼰𐼾𐼰𐼹𐼻𐼴𐼸             #: Sogdian (Sogdian)  
+  - ꡝꡙꡊꡞꡏꡞꡘ           #: 'Phags-pa ('Phags-pa)  
+  - 𑇢𑇣𑇤𑇥𑇦𑇧𑇨           #: Sinhala Archaic (Numbers)  
+  - 𑋰𑋱𑋲𑋳𑋴𑋵𑋶           #: Khudawadi (Numbers)  
+  - 𑓓𑓔𑓕𑓖𑓗𑓘𑓙           #: Tirhuta (Numbers)  
+  - 𑙓𑙔𑙕𑙖𑙗𑙘𑙙           #: Modi (Numbers)  
+  - 𑛃𑛄𑛅𑛆𑛇𑛈𑛉             #: Takri (Numbers)  
+  - 𑣣𑣤𑣥𑣦𑣧𑣨𑣩           #: Warang Citi (Numbers)  
+  - 𑵒𑵓𑵔𑵕𑵖𑵗𑵘           #: Masaram Gondi (Numbers)  
+  - 𑱭𑱮𑱯𑱰𑱱𑱲𑱳             #: Bhaiksuki (Numbers)  
+  - 𑵺𑵻𑵼𑵽𑵾𑵿𑶀           #: Zanabazar Square (Numbers)  
+  - 𑶢𑶣𑶤𑶥𑶦𑶧𑶨             #: Soyombo (Numbers)  
+  - 𒐗𒐘𒐙𒐚𒐛𒐜𒐝     #: Cuneiform (Numbers)  
+  - 𝋧𝋨𝋩𝋪𝋫𝋬𝋭             #: Mayan (Numerals)  
+  - 𑁨𑁩𑁪𑁫𑁬𑁭𑁮               #: Tai Tham (Numbers)  
+  - 𑃲𑃳𑃴𑃵𑃶𑃷𑃸               #: Sora Sompeng (Numbers)  
+  - 𑄺𑄻𑄼𑄽𑄾𑄿𑅀           #: Chakma (Numbers)  
+  - 𑇒𑇓𑇔𑇕𑇖𑇗𑇘             #: Sharada (Numbers)  
+  - 𑈮𑈯𑈰𑈱𑈲𑈳𑈴                #: Khojki (Numbers)  
+  - 𑋲𑋳𑋴𑋵𑋶𑋷𑋸           #: Grantha (Numbers)  
+  - 𑑓𑑔𑑕𑑖𑑗𑑘𑑙            #: Newa (Numbers)  
+  - 𑓕𑓖𑓗𑓘𑓙𑓚𑓛           #: Tirhuta (Alternate)  
+  - 𑙕𑙖𑙗𑙘𑙙𑙚𑙛           #: Modi (Alternate)  
+  - 𑛅𑛆𑛇𑛈𑛉𑛊𑛋             #: Takri (Alternate)  
+  - 𑣥𑣦𑣧𑣨𑣩𑣪𑣫           #: Warang Citi (Alternate)  
+  - 𑵔𑵕𑵖𑵗𑵘𑵙𑵚           #: Masaram Gondi (Alternate)  
+  - 𑱯𑱰𑱱𑱲𑱳𑱴𑱵           #: Bhaiksuki (Alternate)  
+  - 𑵼𑵽𑵾𑵿𑶀𑶁𑶂        #: Zanabazar Square (Alternate)  
+  - 𑶤𑶥𑶦𑶧𑶨𑶩𑶪          #: Soyombo (Alternate)  
+
+# # 🇺🇸 United States / 🇬🇧 Britain (40 names)
+#   - Emma
+#   - Olivia
+#   - Ava
+#   - Sophia
+#   - Isabella
+#   - Mia
+#   - Charlotte
+#   - Amelia
+#   - Harper
+#   - Evelyn
+#   - Abigail
+#   - Emily
+#   - Scarlett
+#   - Grace
+#   - Lily
+#   - Zoey
+#   - Madison
+#   - Avery
+#   - Ella
+#   - Nora
+#   - Liam
+#   - Noah
+#   - Oliver
+#   - Elijah
+#   - James
+#   - William
+#   - Benjamin
+#   - Lucas
+#   - Henry
+#   - Alexander
+#   - Michael
+#   - Daniel
+#   - Matthew
+#   - Jackson
+#   - Sebastian
+#   - Ethan
+#   - Jacob
+#   - Logan
+#   - Carter
+#   - Dylan
+
+# - کابل                # Afghanistan (Pashto/Dari)
+#   - Tiranë                # Albania
+#                                                             - الجزائر",            # Algeria (Arabic)
+#   - Pago Pago           # American Samoa
+#   - Andorra la Vella    # Andorra
+#   - Luanda              # Angola
+#   - The Valley          # Anguilla
+#                                                                          - N/A                # Antarctica (no capital)
+#   - St. John's          # Antigua and Barbuda
+#   - Oranjestad          # Aruba
+#   - Canberra            # Australia
+#   - Bakı                # Azerbaijan (Azerbaijani Latin)
+#   - Nassau              # Bahamas
+#   - المنامة             # Bahrain (Arabic)
+#   - ঢাকা                 # Bangladesh (Bengali)
+#   - Bridgetown          # Barbados
+#   - Belmopan            # Belize
+#   - Porto-Novo          # Benin (French)
+#   - Hamilton            # Bermuda
+#   - ཐིམ་ཕུ                 # Bhutan (Dzongkha — Tibetan script)
+#   - Sucre               # Bolivia (constitutional)
+#   - Kralendijk          # Bonaire
+#   - Сарајево            # Bosnia and Herzegovina (Serbian Cyrillic)
+#   - Gaborone            # Botswana
+#                                                                   - N/A                # Bouvet Island (no capital)
+#   - Brasília            # Brazil (Portuguese)
+#   - Bandar Seri Begawan # Brunei
+#   - Ouagadougou         # Burkina Faso (French)
+#   - Bujumbura           # Burundi
+#   - Praia               # Cabo Verde (Portuguese)
+#   - Yaoundé             # Cameroon (French)
+#   - Ottawa              # Canada (English/French)
+#   - George Town         # Cayman Islands
+#   - Bangui              # Central African Republic (French)
+#   - انجمينا             # Chad (Arabic)
+#   - Flying Fish Cove    # Christmas Island
+#   - سانتياغو            # Chile (Arabic)
+#   - 北京                 # China (Chinese)
+#   - Bogotá              # Colombia (Spanish)
+#   - موروني              # Comoros (Arabic)
+#   - برازافيل            # Congo (Brazzaville, Arabic)
+#   - كينشاسا             # Congo (Kinshasa, Arabic)
+#   - Avarua              # Cook Islands
+#   - San José            # Costa Rica (no Arabic prefix)
+#   - Zagreb              # Croatia
+#                                                                             "هافانا",             # Cuba (Arabic)
+#   - Willemstad          # Curaçao
+#   - Λευκωσία            # Cyprus (Greek)
+#   - Praha               # Czech Republic (Czech)
+#   - København           # Denmark (Danish)
+#   - جيبوتي              # Djibouti (Arabic)
+#   - Roseau              # Dominica
+#   - Santo Domingo       # Dominican Republic
+#   - Quito               # Ecuador (Spanish)
+#   - القاهرة             # Egypt (Arabic)
+#   - San Salvador        # El Salvador
+#   - Malabo              # Equatorial Guinea (Spanish)
+#   - أسمرة               # Eritrea (Arabic)
+#   - Tallinn             # Estonia
+#   - Addis Ababa         # Ethiopia
+#   - Suva                # Fiji
+#   - Helsinki            # Finland
+#   - Paris               # France
+#   - Cayenne             # French Guiana
+#   - Papeete             # French Polynesia
+#   - ليبرفيل             # Gabon (Arabic)
+#   - بانجول              # Gambia (Arabic)
+#   - თბილისი             # Georgia (Georgian Mkhedruli script)
+#   - Berlin              # Germany
+#   - Αθήνα               # Greece (Greek)
+#   - Nuuk                # Greenland (Kalaallisut/Danish)
+#   - St. George's        # Grenada
+#   - Basse-Terre         # Guadeloupe
+#   - Ciudad de Guatemala # Guatemala
+#   - كوناكري             # Guinea (Arabic correction)
+#   - بيساو               # Guinea-Bissau (Arabic)
+#   - Georgetown          # Guyana
+#   - Port-au-Prince      # Haiti
+#   - Tegucigalpa         # Honduras
+#   - Budapest            # Hungary
+#   - Reykjavík           # Iceland (corrected to native form)
+#   - नई दिल्ली              # India (Hindi)
+#   - Jakarta             # Indonesia
+#   - تهران               # Iran (Arabic/Persian)
+#   - بغداد               # Iraq (Arabic)
+#   - Baile Átha Cliath   # Ireland (Irish) (Dublin)
+#   - ירושלים             # Israel (Hebrew)
+#   - Roma                # Italy (Italian)
+#   - كينغستون            # Jamaica (Arabic)
+#   - 東京                 # Japan (Japanese Kanji)
+#   - عمان                # Jordan (Arabic)
+#   - Астана              # Kazakhstan (Cyrillic – reverted from Nur-Sultan)
+#   - نيروبي              # Kenya (Arabic)
+#   - Tarawa              # Kiribati
+#   - 평양                 # North Korea (Korean Hangul)
+#   - 서울                 # South Korea (Korean Hangul)
+#   - مدينة الكويت        # Kuwait (Arabic)
+#   - Бишкек              # Kyrgyzstan (Kyrgyz – Cyrillic)
+#   - ວຽງຈັນ               # Laos (Lao script)
+#   - Rīga                # Latvia (Latvian)
+#   - بيروت               # Lebanon (Arabic)
+#   - Maseru              # Lesotho (English; Sesotho uses Latin script)
+#   - Monrovia            # Liberia (English)
+#   - طرابلس              # Libya (Arabic)
+#   - Vaduz               # Liechtenstein (German, Latin)
+#   - Vilnius             # Lithuania (Lithuanian, Latin)
+#   - Luxembourg          # Luxembourg (Luxembourgish – Latin)
+#   - Antananarivo        # Madagascar (Malagasy, Latin)
+#   - Lilongwe            # Malawi (English; Chichewa – Latin)
+#   - Kuala Lumpur        # Malaysia (Malay – Latin)
+#   - Malé                # Maldives (Dhivehi in Latin script DM transliteration)
+#   - Bamako              # Mali (French – Latin)
+#   - Valletta            # Malta (Maltese – Latin)
+#   - Majuro              # Marshall Islands (Marshallese – Latin)
+#   - نواكشوط             # Mauritania (Arabic)
+#   - Port Louis          # Mauritius (English/French – Latin)
+#                                                                       - مَكِّسِيكُو سِيتِي # Mexico City (Arabic)
+#   - Palikir             # Micronesia (English – Latin)
+#   - Chișinău            # Moldova (Romanian – Latin)
+#   - موناكو              # Monaco (Arabic)
+#   - Улаанбаатар         # Ulaanbaatar (Mongolian – Cyrillic)
+#   - Подгорица           # Podgorica (Montenegrin – Cyrillic)
+#   - الرباط              # Rabat (Arabic)
+#   - مابوتو              # Maputo (Arabic)
+#   - နေပြည်တော်           # Naypyidaw (Burmese script)
+#   - Windhoek            # Namibia (English – Latin)
+#   - Yaren               # Nauru (Latin)
+#   - काठमाडौं               # Kathmandu (Nepali – Devanagari)
+#   - Amsterdam           # Netherlands (Dutch – Latin)
+#   - Paramaribo          # Suriname (Dutch – Latin)
+#   - Wellington          # New Zealand (English – Latin)
+#   - Managua             # Nicaragua (Spanish – Latin)
+#   - نيامي               # Niamey (Arabic)
+#   - أَبُوجَا               # Abuja (Arabic)
+#   - Alofi               # Niue (Niuean/English – Latin)
+#   - Kingston            # Norfolk Island (English – Latin)
+#   - Скопје              # Skopje (Macedonian – Cyrillic)
+#   - HàNội              # Hà Nội (Vietnamese – Latin script with diacritics)
+#   - أوسلو               # Oslo (Arabic)
+#   - مسقط                # Muscat (Arabic)
+#   - اسلام‌آباد             # Islamabad (Urdu – Nastaliq script)
+#   - Ngerulmud           # Palau (Palauan/English – Latin)
+#   - بنما سيتي           # Panama City (Arabic)
+#   - PortMoresby        # Papua New Guinea (English – Latin)
+#   - Asunción            # Paraguay (Spanish – Latin)
+#   - Lima                # Peru (Spanish – Latin)
+#   - मनीला                 # Manila (Filipino Tagalog – Baybayin? Latin used)
+#   - Warszawa            # Poland (Polish – Latin)
+#   - Lisboa              # Portugal (Portuguese – Latin)
+#   - دُوحة                # Doha (Arabic)
+#   - București           # Romania (Romanian – Latin)
+#   - Москва              # Moscow (Russian – Cyrillic)
+#   - Kigali              # Rwanda (Kinyarwanda – Latin)
+#   - Basseterre          # Saint Kitts and Nevis (English – Latin)
+#   - Castries            # Saint Lucia (English – Latin)
+#   - Kingstown           # Saint Vincent… (English – Latin)
+#   - Apia                # Samoa (Samoan – Latin)
+#   - SanMarino          # San Marino (Italian – Latin)
+#   - SãoTomé            # São Tomé (Portuguese – Latin with diacritics)
+#   - الرياض              # Riyadh (Arabic)
+#   - داكار               # Dakar (Arabic)
+#   - Београд             # Beograd (Serbian – Cyrillic)
+#   - Victoria            # Seychelles (English/Creole – Latin)
+#   - فريتاون             # Freetown (Arabic)
+#   - سنغافورة            # Singapore (Arabic)
+#   - Bratislava          # Slovakia (Slovak – Latin)
+#   - Ljubljana           # Slovenia (Slovene – Latin)
+#   - Muqdisho            # Mogadishu (Somali – Latin)
+#   - කොළඹ               # Kolamba (Colombo – Sinhala script)
+#   - الخرطوم             # Khartoum (Arabic)
+#   - Paramaribo          # Suriname (repeat)
+#   - دمشق                # Damascus (Arabic)
+#   - 臺北                 # Taipei (Traditional Chinese)
+#   - Душанбе             # Dushanbe (Tajik – Cyrillic)
+#   - Dodoma              # Tanzania (Swahili – Latin)
+#   - กรุงเทพมหานคร        # Krung Thep Maha Nakhon (Thai script)
+#   - Dili                # Timor‑Leste (Portuguese/Tetum – Latin)
+#   - Lomé                # Togo (French – Latin)
+#   - Nukuʻalofa          # Tonga (Tongan – Latin with ʻokina)
+#   - PortofSpain       # Trinidad and Tobago (English – Latin)
+#   - تونس                # Tunis (Arabic)
+#   - أنقرة               # Ankara (Arabic)
+#   - Aşgabat             # Aşgabat (Turkmen – Latin)
+#   - Funafuti            # Tuvalu (Tuvaluan – Latin)
+#   - Kampala             # Uganda (English – Latin)
+#   - Київ                # Kyiv (Ukrainian – Cyrillic)
+#   - أبوظبي             # Abū Ẓabī (Arabic)
+#   - London              # United Kingdom (English – Latin)
+#   - WashingtonDC        # United States (English – Latin)
+#   - مونتيفيديو          # Montevideo (Arabic)
+#   - Тошкент             # Toshkent (Uzbek – Cyrillic)
+#   - PortVila           # Vanuatu (Bislama/French/English – Latin)
+#   - كاراكاس             # Caracas (Arabic)
+#   - HàNội              # Việt Nam (repeated)
+#   - صنعاء               # Ṣanʿā’ (Arabic)
+#   - لوساكا              # Lusaka (Arabic)
+#   - هاراري              # Harare (Arabic)

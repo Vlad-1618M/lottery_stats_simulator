@@ -1,0 +1,19 @@
+megamillion:
+  primary: [5, 1, 70]
+  mega: [1, 1, 25]
+
+powerball:
+  primary: [5, 1, 69]
+  power: [1, 1, 26]
+
+lotto:
+  primary: [6, 1, 50]
+
+luckyday:
+  primary: [5, 1, 45]
+
+pick3:
+  primary: [3, 0, 9]
+
+pick4:
+  primary: [4, 0, 9]

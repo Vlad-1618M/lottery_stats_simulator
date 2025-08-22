@@ -1,0 +1,33 @@
+# version: '3.8'
+
+services:
+  data_collector:
+    build:
+      context: ../../
+      dockerfile: build/arm64/ubu_arm64_playwright.Dockerfile
+    image: repo_container:latest
+    container_name: container_lotto
+    volumes:
+      - lotto_data:/lotto
+    networks:
+      - lotto_network
+
+  fs_watcher:
+    build:
+      context: ../../
+      dockerfile: build/sidecar/monitor.Dockerfile
+    image: watcher_sidecar:latest
+    container_name: watcher_sidecar
+    volumes:
+      - lotto_data:/lotto
+    depends_on:
+      - data_collector
+    networks:
+      - lotto_network
+
+volumes:
+  lotto_data:
+
+networks:
+  lotto_network:
+
