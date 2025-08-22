@@ -1,3 +1,24 @@
+# macOS files
+.DS_Store
+.vscode
+
+# local:
+.logs
+lotto_draw_results
+lotto_screenshots
+lottery_catalog
+go_compiled
+ffmpeg_compressor.sh
+html_reports
+setup_notes
+email_setup
+Aug-*
+June-*
+July-*
+August-*
+
+.trashed
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -8,7 +29,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
 develop-eggs/
 dist/
 downloads/

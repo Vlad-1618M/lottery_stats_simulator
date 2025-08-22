@@ -1,0 +1,13 @@
+# ============================
+# pyproject.toml for ruff
+# ============================
+
+[tool.ruff]
+line-length = 120
+# ignore = ["E501"]
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist"
+]

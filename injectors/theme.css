@@ -1,0 +1,58 @@
+/* dark_theme.css */
+body {
+  background-color: #000000;
+  color: #e0e0e0;
+  font-family: 'Fira Code', monospace;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #000000;
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+}
+
+tr:nth-child(even) {
+  background-color: #0a0a0a;
+}
+
+tr:hover {
+  background-color: #1a1a1a;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #ffcc00;
+}
+
+.rich-panel {
+  border-color: #ffcc00 !important;
+  background-color: #0a0a0a !important;
+  box-shadow: 0 0 12px rgba(255, 204, 0, 0.1);
+}
+
+a {
+  color: #29b6f6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #81d4fa;
+  text-decoration: underline;
+}
+
+code {
+  background-color: #0a0a0a;
+  color: #ffab91;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
