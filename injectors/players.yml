@@ -1,5 +1,5 @@
 name:
-#  Default - if no names selected | see logic in -->  "quickPick.py" Lines 66 - 71 |
+#  Default - if no names selected | see logic in -->  "quickPick.py" Lines 118 - 126 |
   - ghost
 # ____________________________________________________________
 # 🇺🇸 United States (Latin)
@@ -4062,7 +4062,7 @@ name:
   - देव
   - मनीष
 
-# ____________________________________________________________
+# _______________________ Capital City Names | locale linguistic settings ______
   - کابل                # Afghanistan (Pashto/Dari)
   - Tiranë              # Albania (Albanian)
   - الجزائر             # Algeria (Arabic)
@@ -4070,7 +4070,7 @@ name:
   - Andorra la Vella    # Andorra (Catalan)
   - Luanda              # Angola (Portuguese)
   - The Valley          # Anguilla (English)
-  - St. John's          # Antigua and Barbuda (English)
+  - St.Johns            # Antigua and Barbuda (English)
   - Canberra            # Australia (English)
   - Wien                # Austria (German)
   - باکو                # Azerbaijan (Azerbaijani Bakı)
@@ -4088,7 +4088,7 @@ name:
   - Gaborone            # Botswana (English)
   - Brasília            # Brazil (Portuguese)
   - Bandar Seri Begawan # Brunei (Malay)
-  - Sofia               # Bulgaria (Bulgarian Cyrillic)
+  - София               # Bulgaria (Bulgarian Cyrillic)
   - Ouagadougou         # Burkina Faso (French)
   - Bujumbura           # Burundi (French/Kirundi)
   - Phnom Penh          # Cambodia (Khmer)
@@ -4203,7 +4203,7 @@ name:
   - Lisboa              # Portugal (Portuguese)
   - الدوحة              # Qatar (Arabic — official script)
   - București           # Romania (Romanian/English)
-  - Москва              # Russia (Russian)
+  - Москва              # Russia (Russian Cyrillic)
   - Kigali              # Rwanda (Kinyarwanda/French/English)
   - Basseterre          # Saint Kitts and Nevis (English)
   - Castries            # Saint Lucia (English)
@@ -4235,7 +4235,7 @@ name:
   - Dodoma              # Tanzania (Swahili/English)
   - กรุงเทพมหานคร        # Thailand (Thai)
   - Lomé                # Togo (French)
-  - Nukuʻalofa          # Tonga (Tongan/English)
+  - Nukualofa           # Tonga (Tongan/English)
   - PortofSpain         # Trinidad and Tobago (English)
   - تونس                # Tunisia (Arabic)
   - Ankara              # Turkey (Turkish)
@@ -4256,50 +4256,4 @@ name:
   - Lusaka              # Zambia (English)
   - Harare              # Zimbabwe (English)
 
-
-# 🇷🇺 Russia (Cyrillic)
-# #   - Анна
-# #   - София
-# #   - Мария
-# #   - Елизавета
-# #   - Дарья
-# #   - Виктория
-# #   - Ольга
-# #   - Анастасия
-# #   - Екатерина
-# #   - Полина
-# #   - Алина
-# #   - Ксения
-# #   - Варвара
-# #   - Ульяна
-# #   - Милана
-# #   - Вера
-# #   - Меньшикова
-# #   - Наталья
-# #   - Татьяна
-# #   - Ирина
-# #   - Светлана
-# #   - Артём
-# #   - Александр
-# #   - Иван
-# #   - Дмитрий
-# #   - Максим
-# #   - Михаил
-# #   - Андрей
-# #   - Евгений
-# #   - Никита
-# #   - Владислав
-# #   - Кирилл
-# #   - Тимофей
-# #   - Роман
-# #   - Сергей
-# #   - Глеб
-# #   - Воолодя
-# #   - Иосиф
-# #   - Владимир
-# #   - Меньшиков
-# #   - Константин
-# #   - Арсений
-# #   - Ленин
-# #   - Степан
-# #   - Даниил
+# ______________________________________________________________-

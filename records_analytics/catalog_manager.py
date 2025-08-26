@@ -7,10 +7,7 @@ import sys
 import json
 import shlex
 import inspect
-import argparse
-from time import sleep
 from pathlib import Path
-from rich.table import Table
 from rich.console import Console
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
@@ -26,6 +23,7 @@ def caller_trace():
     code_line = info.lineno
     trace_file = ' '.join(map(shlex.quote, (os.path.basename(sys.executable), os.path.basename(sys.argv[0]))))
     return f"[dim]{trace_file}[/dim] --> [bold magenta]{function_trace}()[/bold magenta] code line: #[bold yellow]{code_line}[/bold yellow]"
+
 
 def find_all_json_paths(base_dir=None) -> list[str]:
     if base_dir is None:
@@ -49,54 +47,8 @@ def load_json(path: str, idx: int, error_table):
         return None
     except Exception as read_error:
         error_table.add_row(f"[dim]{idx}[/dim]", f"[yellow]{str(read_error)}[/yellow]", f"[bold red]{path_object.name}[/bold red]")
-        return None
+        return None    
 
-
-def items_records_view():
-    json_files = find_all_json_paths()
-    if not json_files:
-        colored.print("[bright_yellow][WARN][/bright_yellow] No JSON files found.")
-        return
-    
-    error_table = Table(title="\nBroken JSON Records", width=50, show_lines=False, title_justify="left")
-    # error_table = Table(title="\nBroken JSON Records:\n", title_justify="left", width=55, show_lines=False, show_edge=False, show_footer=False, show_header=False)
-    error_table.add_column("Index", justify="left", style="red")
-    error_table.add_column("Error", justify="left", style="yellow")
-    error_table.add_column("File Name", justify="left", style="cyan")
-
-    for idx, json_path in enumerate(sorted(json_files, key=lambda _: Path(_).stat().st_mtime), start=1):
-        data = load_json(json_path, idx, error_table)
-        if data is None:
-            continue
-        colored.print(f"[dim][CATALOG ][/dim]: Loaded [bold yellow]{len(data)}[/bold yellow] items from: [bright_cyan]{Path(json_path).name:>6}[/bright_cyan]")
-
-    if error_table.row_count > 0:
-        # colored.print(Panel(error_table, title="Summary of Errors", width=110))
-        colored.print(error_table)
-
-
-def records_catalog_view(details=False):
-    catalog = find_all_json_paths()
-    if not catalog:
-        colored.print("[yellow][WARN][/yellow] No JSON files found.")
-        return
-
-    for idx, catalog_name in enumerate(sorted(catalog, key=lambda _: Path(_).stat().st_mtime), start=1):
-        path_object = Path(catalog_name)
-        try:
-            with path_object.open("r", encoding="utf-8") as reader:
-                read_catalog_details = json.load(reader)
-                colored.print(f"[Game Rcord Catalog ID: {idx}] ➜ [bold cyan]{path_object.name}[/bold cyan]")
-                if details:
-                    sleep(0.09)
-                    colored.print(read_catalog_details)
-
-        except json.JSONDecodeError as json_struct_error:
-            colored.print(f"[bright_red][ERROR {idx}][/bright_red] Invalid JSON in: [bold red]{path_object.name}[/bold red]")
-            colored.print(f"[dim]{json_struct_error}[/dim]")
-        except Exception as messed_up_json:
-            colored.print(f"[red][FAIL][/red] Could not process file: [cyan]{path_object.name}[/cyan] — {str(messed_up_json)}")
-    
 
 def get_values_by_keys(name: str, keys: list[str] = None, filter_by: tuple = None, directory: Path = None) -> list[dict] | None:
     game_values = {"powerball", "megamillion", "lotto", "luckyday", "pick3", "pick4"}
@@ -162,42 +114,6 @@ def get_values_by_keys(name: str, keys: list[str] = None, filter_by: tuple = Non
     return None
 
 
-# def game_records(items_count=False, show_catalog_details=False,  show_catalog_Ids=False):
-#     if items_count:
-#         items_records_view()
-#     if  show_catalog_details:
-#         return records_catalog_view(details=True)
-#     if show_catalog_Ids:
-#         return records_catalog_view(details=False)
-#     else:
-#         return []
-
-
-def game_records():
-    enable_args = argparse.ArgumentParser(description="Catalog Records Viewer:")
-    enable_args.add_argument('--items', action='store_true', help='Show catalog items (e.g., recorded game count) records:')
-    enable_args.add_argument('--show-details', action='store_true', help='Show catalog itmes details (e.g., See key-pair values) records:')
-    enable_args.add_argument('--show-ids', action='store_true', help='Show catalog ids + names of each record:')
-    args = enable_args.parse_args()
-    
-    _any = False
-    if args.items:
-        items_records_view()
-        _any = True
-    if args.show_details:
-        records_catalog_view(details=True)
-        _any = True
-    if args.show_ids:
-        records_catalog_view(details=False)
-        _any = True
-    
-    if not _any:
-        colored.print(
-            f"[bold red]No[/bold red] view option selected for: [bold red]-->[/bold red] "
-            f"{caller_trace()}\n\t\t\t\t"
-            f" Run [bold yellow]`--help`[/bold yellow] to see available [bold]cli[/bold] flags:\n"
-        )
-
 def main_call(use_rich=False):
     if use_rich:
         if "--help" in sys.argv or "-h" in sys.argv:
@@ -218,5 +134,4 @@ def main_call(use_rich=False):
 
 
 if __name__ == "__main__":
-    game_records()
-    # main_call(use_rich=True)
+    main_call(use_rich=True)

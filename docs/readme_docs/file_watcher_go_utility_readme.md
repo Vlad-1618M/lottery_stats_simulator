@@ -87,6 +87,19 @@ tree .
     `-- watcher
         |-- watcher.go
 ```
+- NOTE:
+    - The [go.mod](/build/gotools/go.mod) and [got.sum](/build/gotools/go.sum) should exist in [gotools](/build/gotools/) directory in main branch:<br>
+    - however if for some reason go pkg files are missing or lost:
+        ```go
+        cd build/gotools
+        go mod init gotools
+        go mod tidy
+        ```
+        ```go
+        go env GOMOD    # -->  should print:   `.../build/gotools/go.mod`
+        go list -m      # -->  should print: `gotools`
+        ```
+        ![get_go_pkgs](/docs/png_docs/get_go_pkgs.png)
 
 - ***`go run cmd/watcher/main.go`*** - as code:
 ```bash

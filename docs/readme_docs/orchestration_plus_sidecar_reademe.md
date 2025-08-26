@@ -52,11 +52,11 @@
 ## Installation:
 - Clone the Repository:
 ```bash
-git clone ???
+git clone git@github.com:Vlad-1618M/lottery_stats_simulator.git
 ```
 - cd lotto_simulator"
 ```bash
-cd lotto_simulator
+cd lottery_stats_simulator
 ```
 - Check your sys architecure:
     ```bash

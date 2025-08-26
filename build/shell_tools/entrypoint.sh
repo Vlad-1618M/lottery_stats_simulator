@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# POSIX-compatible color setup:
 RED=$(printf '\033[31m')
 GREEN=$(printf '\033[32m')
 YELLOW=$(printf '\033[33m')
@@ -173,12 +172,14 @@ py_main(){
   generate_decorator
   job "PYTHON Analytics" "Lotto Sequence Analytics Scripts:"
   run_python "/lotto/src/collect_statistics.py" "--list"
-  run_python "/lotto/src/collect_statistics.py" "--games" "megamillion" "powerball" "--save-html"
+  run_python "/lotto/src/collect_statistics.py" "--games" "megamillion" "--save-html"
+  run_python "/lotto/src/collect_statistics.py" "--games" "powerball" "--save-html"
+  run_python "/lotto/src/collect_statistics.py" "--games" "powerball" "megamillion" "--save-html"
   generate_decorator
   job "PYTHON Catalogs" "Show Existing Catalog Details:"
-  run_python "/lotto/records_analytics/catalog_manager.py" "--items"
-  run_python "/lotto/records_analytics/catalog_manager.py" "--show-ids"
-  run_python "/lotto/records_analytics/catalog_manager.py" "--show-details"
+  run_python "/lotto/src/bulk_records_view.py" "--items"
+  run_python "/lotto/src/bulk_records_view.py" "--show-ids"
+  run_python "/lotto/src/bulk_records_view.py" "--show-details"
   generate_decorator  
 }
 
@@ -259,69 +260,3 @@ main "$@"
 # go_main "$@"
 # py_main "$@"
 # tail -f /dev/null
-
-
-
-# deps_check() {
-#   job debug "System PATH:"
-#   echo "$PATH" | tr ':' '\n' | sed "s/^/${CYAN}  /" | sed "s/$/${off}/"
-
-#   job debug " Python info:"
-#   PYTHON_BIN=$(command -v python || command -v python3)
-#   if [ -n "$PYTHON_BIN" ]; then
-#     PYTHON_VERSION=$($PYTHON_BIN --version 2>&1)
-#     job debug " Path: ${CYAN}${PYTHON_BIN}${off}"
-#     job debug " Version: ${CYAN}${PYTHON_VERSION}${off}"
-
-#     job debug " Python packages:"
-#     $PYTHON_BIN -m pip list | grep -E 'playwright|pip|setuptools|wheel' || job warn "No known packages found"
-#   else
-#     job error "Python not found!"
-#   fi
-
-#   job debug " Golang info:"
-#   if command -v go >/dev/null 2>&1; then
-#     GO_BIN=$(command -v go)
-#     GO_VERSION=$(go version)
-#     job debug " Path: ${CYAN}${GO_BIN}${off}"
-#     job debug " Version: ${CYAN}${GO_VERSION}${off}"
-#   else
-#     job error "Go not found!"
-#   fi
-
-#   job debug " CLI tools:"
-#   for tool in jq batcat curl tree shellcheck make; do
-#     if command -v "$tool" >/dev/null 2>&1; then
-#       TOOL_PATH=$(command -v "$tool")
-#       TOOL_VER=$("$tool" --version 2>/dev/null | head -n1)
-#       job debug " ${tool}: ${CYAN}${TOOL_PATH}${off} (${TOOL_VER})"
-#     else
-#       job warn " ${tool} not installed"
-#     fi
-#   done
-
-#   job debug " Playwright dependencies (system-level):"
-#   if command -v playwright >/dev/null 2>&1; then
-#     playwright install-deps --dry-run || job warn "Could not validate playwright deps"
-#   else
-#     job error "playwright CLI not found!"
-#   fi
-# }
-
-
-
-# debug_info() {
-#   job debug "System PATH:"
-#   echo "$PATH" | tr ':' '\n' | sed "s/^/${CYAN}  /" | sed "s/$/${off}/"
-
-#   job debug " Python info:"
-#   PYTHON_BIN=$(command -v python || command -v python3)
-
-#   if [ -n "$PYTHON_BIN" ]; then
-#     PYTHON_VERSION=$($PYTHON_BIN --version 2>&1)
-#     job debug " Path: ${CYAN}${PYTHON_BIN}${off}"
-#     job debug " Version: ${CYAN}${PYTHON_VERSION}${off}"
-#   else
-#     job error "Python not found!"
-#   fi
-# }
