@@ -190,13 +190,21 @@ The [player](/injectors/players.yml) data and [game](/globs/games.yml) limits ar
 - [Dockerfiles](/docs/readme_docs/playwright_based_dockerfile_builds_reademe.md)
 - [Orchestration](/docs/readme_docs/orchestration_plus_sidecar_reademe.md)
 
-## Demos:
+---
+* ***GitHub did not like my `.mp4` uploads***:
+* YouTube: ***https://www.youtube.com/@Vlad-1618.M/playlists***
+
+    ![youtube](/docs/png_docs/youtube_ref.png)
+
+## Downloads Only: - mp4 Demos:
 - [Orchestration Setup](/docs/mp4/docker_compose_setup_example_2x.mp4)
 - [Sidecar Setup](/docs/mp4/sidecar_stand_along_watcher_build_demo_2x.mp4)
 - [Entrypoint Build](/docs/mp4/demo_entrypoint_build_2x.mp4)
 - [Entrypoint Runtime](/docs/mp4/entrypoint_runtime_demo_start_2x.mp4)
 - [FS Watcher Run as code](/docs/mp4/go_watcher_as_code.mov_2x.mp4)
 - [FS Watcher Binary Auto run](/docs/mp4/go_watcher_run_example_2x.mp4)
+
+---
 
 ## Lotto Math Formulas:
 > General Lottery Odds Formula:
