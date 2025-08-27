@@ -43,11 +43,11 @@ The [amd64_playwright](/build/amd64/ubu_amd64_playwright.Dockerfile) and [arm64_
 ## Installation:
 - Clone the Repository:
 ```bash
-git clone ???
+git clone git@github.com:Vlad-1618M/lottery_stats_simulator.git
 ```
-- cd lotto_simulator"
+- cd lottery_stats_simulator"
 ```bash
-cd lotto_simulator
+cd lottery_stats_simulator
 ```
 - Check your sys architecure:
     ```bash

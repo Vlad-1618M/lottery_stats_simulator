@@ -12,12 +12,22 @@ ffmpeg_compressor.sh
 html_reports
 setup_notes
 email_setup
-Aug-*
+January-*
+February-*
+March-*
+April-*
+May-*
 June-*
 July-*
 August-*
-
+September-*
+October-*
+November-*
+December-*
 .trashed
+_manim_lib
+_blender
+search_open.sh
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

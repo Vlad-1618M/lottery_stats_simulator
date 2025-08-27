@@ -268,4 +268,6 @@ if args.export_after:
     timer_thread = threading.Thread(target=export_and_exit_timer, args=(args.export_after,), daemon=True)
     timer_thread.start()
 
-plt.show()
+
+if __name__ == "__main__":
+    plt.show()

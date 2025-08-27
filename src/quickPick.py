@@ -186,7 +186,7 @@ def main():
     total_records = sum(player_records_summary.values())
     # colored.print(Panel(f"[bold green]{total_records} total game record(s) saved.[/bold green]", title="Summary", width=80))
 
-    summary_table = Table(title="\nIllinois State Lotto Game Records", width=170, show_lines=True)
+    summary_table = Table(title="\nLottery Game Records:", width=170, show_lines=True)
     summary_table.add_column("Player Name", justify="left", style="cyan", no_wrap=True)
     summary_table.add_column("Records File", justify="left", style="yellow")
     summary_table.add_column("Records Path", justify="left", style="dim")
@@ -211,5 +211,5 @@ def _debug_gen_more_data(limit=10):
 
 
 if __name__ == "__main__":
+    # _debug_gen_more_data(limit=2)
     main()
-    # _debug_gen_more_data(limit=10):
