@@ -3,6 +3,7 @@
 # mypy: ignore-errors
 
 import os
+from re import split
 import sys
 import json
 import shlex
@@ -115,22 +116,29 @@ def get_values_by_keys(name: str, keys: list[str] = None, filter_by: tuple = Non
 
 
 def main_call(use_rich=False):
-    if use_rich:
-        if "--help" in sys.argv or "-h" in sys.argv:
-            print("\n")
-            colored.print(epilogs.extended_epilog_rich_panle_help())
-            sys.exit(0)
+    if use_rich and ("--help" in sys.argv or "-h" in sys.argv):
+        colored.print("\n", epilogs.extended_epilog_rich_panle_help())
+        sys.exit(0)
 
     parser = epilogs.extended_epilog_help()
     args = parser.parse_args()
     result = get_values_by_keys(args.name, keys=args.keys, filter_by=tuple(args.filter) if args.filter else None)
+    
+    details = {"name": args.name, "keys": args.keys if args.keys else None, "filter": args.filter if args.filter else None}
+    # details = {"name": args.name}
+    # if args.keys:
+    #     details["keys"] = args.keys
+    # if args.filter:
+    #     details["filter"] = args.filter
 
     if result:
-        colored.print(f"[bright_green]✓ Extracted {len(result)} record(s) from:[/bright_green] [cyan]{args.name}.json[/cyan]")
+        detail_str = ", ".join(f"{_keys}='{_values}'" for _keys, _values in details.items())
+        colored.print(f"\n[bold green]✓[/bold green] [bold cyan]{args.name}[/bold cyan].json got total of [bold yellow]{len(result)}[/bold yellow] [bold magenta]{detail_str}[/bold magenta] records:\n" + "[dim]_[/dim]" * 185)
+        # colored.print(f"\n[bold green]✓[/bold green] [bold cyan]{args.name}[/bold cyan].json got total of [bold yellow]{len(result)}[/bold yellow] [bold magenta]{detail_str.split("name=")[-1].split("keys=")[-1]}[/bold magenta] records:\n" + "[dim]_[/dim]" * 185)
         for idx, entry in enumerate(result, start=1):
-            colored.print(f"[bold]{idx}[/bold]. {entry}")
+            colored.print(f"[bold]{idx:>4}[/bold]. {entry}")
     else:
-        colored.print("[bright_red] No records found or failed to process file:[/bright_red]")
+        colored.print(f"\n[bright_red]Records Not found[/bright_red] - [bold]failed[/bold] to process:\t[bold magenta]{args.name}[/bold magenta].json file:\n" + "[dim]=[/dim]" * 90)
 
 
 if __name__ == "__main__":

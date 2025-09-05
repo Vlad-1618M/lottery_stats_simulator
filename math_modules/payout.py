@@ -13,7 +13,7 @@ colored = Console()
 CONFIG = {
     "jackpots": {
         "powerball": 526_000_000,
-        "megamillions": 198_000_000,
+        "mega": 198_000_000,
         "lotto": 13_850_000,
     },
     "federal_withholding": 0.24,    # <-- 24% federal withholding as of 2025 | needs to be updated if or when the tax laws change:
@@ -245,19 +245,19 @@ def build_parser():
 ˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙
 CLI args call examples:\n
   \tLump sum: | IL flat tax:
-  \t{call_name} --game powerball --cash-option 0.52 --state IL
+  \t{call_name} --game powerball --cash 0.52 --state IL
 
   \tLump sum: | CA winner with CA ticket | 0% CA tax:
-  \t{call_name} --amount 500000000 --cash-option 0.6 --state CA --ticket-state CA
+  \t{call_name} --amount 500000000 --cash 0.6 --state CA --ticket-state CA
 
   \tLump sum: | CA resident with NV ticket | warn + suggest rate:
-  \t{call_name} --game megamillions --cash-option 0.6 --state CA --ticket-state NV
+  \t{call_name} --game mega --cash 0.6 --state CA --ticket-state NV
 
   \tAnnuity:  | 30 yrs | NY resident | warn to pass rate:
   \t{call_name} --game powerball --annuity --state NY --years 30
 
   \tLump sum: | PA with explicit state rate of 3.07%
-  \t{call_name} --amount 300000000 --cash-option 0.52 --state PA --state-rate 0.0307
+  \t{call_name} --amount 300000000 --cash 0.52 --state PA --state-rate 0.0307
 
   \tShow explanatory notes:
   \t{call_name} --info

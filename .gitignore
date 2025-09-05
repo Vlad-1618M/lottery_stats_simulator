@@ -27,6 +27,8 @@ December-*
 .trashed
 _manim_lib
 _blender
+_dev_debug
+TRASHED_CODE
 search_open.sh
 
 # Byte-compiled / optimized / DLL files
