@@ -3,7 +3,6 @@
 # mypy: ignore-errors
 
 import os
-from re import split
 import sys
 import json
 import shlex

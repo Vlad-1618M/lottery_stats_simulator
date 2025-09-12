@@ -7,9 +7,10 @@ from collections import Counter
 from rich.console import Console
 from typing import List, Dict, Optional
 
-sys.path.append(str(Path(__file__).resolve().parents[1]))
-from run_search import frequency_maps
-from injectors import runtime_perf as perf, str_formatter
+sys.path.append(str(Path(__file__).resolve().parents[2]))
+from injectors import runtime_perf as perf
+import frequency_maps
+
 colored = Console()
 
 def construct_rarest_sequence(
@@ -61,6 +62,7 @@ def construct_rarest_sequence(
     return result
 
 
+@perf.timeit
 def main():
     state_games = ["powerball", "megamillion", "lotto"]
     jsons = frequency_maps.get_records()
@@ -79,6 +81,7 @@ def main():
                 colored.print(f"\n[bold green]{game.upper():<13}[/bold green]\t→ rarest sequence: [bright_red]{rarest_seq}[/bright_red] in Key: [bold magenta]{key.upper():>3}[/bold magenta]")
             except Exception as e:
                 colored.print(f":warning: Skipping [bold red]{game:<7}[/bold red] → {e}")
+
 
 if __name__ == "__main__":
     main()

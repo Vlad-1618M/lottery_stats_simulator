@@ -9,10 +9,10 @@ from rich.console import Console
 from collections import defaultdict
 from typing import List, Union, Generator, Optional
 
-sys.path.append(str(Path(__file__).resolve().parents[1]))
-from run_search import frequency_maps
-from run_search import use_rarest_sequence
+sys.path.append(str(Path(__file__).resolve().parents[2]))
 from injectors import runtime_perf as perf
+import use_rarest_sequence
+import frequency_maps
 
 colored = Console()
 
@@ -94,8 +94,12 @@ def compare_sequence_to_draws(
 # _______ results draws loader:
 def get_records(base_dir=None) -> List[str]:
     if base_dir is None:
-        base_dir = Path(__file__).resolve().parents[1]
-    return [str(_path.absolute()) for _path in (base_dir / "lotto_draw_results").glob("**/*.json")]
+        base_dir = Path(__file__).resolve().parents[2]
+    # __ using Path.glob() in retunr call | personal hack :0) 
+    # __ sinse glob got 'graceful degradation' logic | helps to retunr [] list in case one of the data dirs is yet to be created: 
+    return [
+        str(_path.absolute()) for _path in (base_dir / "lotto_draw_results").glob("**/*.json")] \
+            + [str(_path.absolute()) for _path in Path("./historical_lotto_draw_results").glob("*.json")]
 
 
 def iter_json_catalogs(json_paths: List[Union[str, Path]], details: bool = False) -> Generator[dict, None, None]:
@@ -113,8 +117,13 @@ def iter_json_catalogs(json_paths: List[Union[str, Path]], details: bool = False
                         for record in data:
                             # ____ normalized keys injections for draw files:
                             record["game"] = game_tag
+                            
+                            # Handle both formats of primary_numbers
+                            primary_nums = record.get("primary_numbers", [])
+                            if primary_nums and isinstance(primary_nums[0], str) and "," in primary_nums[0]:
+                                primary_nums = [num.strip() for num in primary_nums[0].split(",")]
                             record["selection"] = {
-                                "primary_numbers": record.get("primary_numbers", []),
+                                "primary_numbers": primary_nums,  # Use the processed primary numbers
                                 "mega": [record.get("megaball") or record.get("powerball")] if record.get("megaball") or record.get("powerball") else []}
                             yield record
                     else:
@@ -124,7 +133,12 @@ def iter_json_catalogs(json_paths: List[Union[str, Path]], details: bool = False
                     record_file.seek(0)
                     for idx, line in enumerate(record_file, start=1):
                         try:
-                            yield json.loads(line)
+                            record = json.loads(line)
+                            # Apply the same format handling for line-by-line reading
+                            primary_nums = record.get("primary_numbers", [])
+                            if primary_nums and isinstance(primary_nums[0], str) and "," in primary_nums[0]:
+                                record["primary_numbers"] = [num.strip() for num in primary_nums[0].split(",")]
+                            yield record
                         except Exception as line_read_error:
                             colored.print(f"[red]Failed line {idx} in {path.name}:[/red] {line_read_error}")
         except Exception as file_read_error:
@@ -154,10 +168,11 @@ def show_matches_grouped(overlaps: List[dict]):
     for count in sorted(grouped.keys(), reverse=True):
         colored.print(f"\n[bold magenta]{count} number match(es)[/bold magenta] → {len(grouped[count])} draw(s):")
         for match in grouped[count]:
-            colored.print(f"  → {match['draw']} | Overlap: [yellow]{match['overlap']}[/yellow] | Date: [green]{match['draw_date']}[/green]")
+            # colored.print(f"  → {str(match['draw']).split("[")[1].split("]")[0]:<20} | [dim italic]Overlap:[/dim italic] [yellow]{match['overlap']}[/yellow]\t| Date: [green]{match['draw_date']:>10}[/green]")
+            colored.print(f"  → {', '.join(map(str, match['draw'])):<20} | [dim italic]Overlap:[/dim italic] [yellow]{', '.join(map(str, match['overlap']))}[/yellow]\t| Date: [green]{match['draw_date']:>10}[/green]")
+
 
 # ________ cli args orchestration logic:
-
 GAME_PRIMARY_COUNTS = {
     "powerball": 5,
     "megamillion": 5,

@@ -10,7 +10,7 @@ from collections import defaultdict, Counter
 from typing import Dict, List, Union, Generator, Optional
 
 from rich.console import Console
-sys.path.append(str(Path(__file__).resolve().parents[1]))
+sys.path.append(str(Path(__file__).resolve().parents[2]))
 from injectors import runtime_perf as perf, str_formatter
 
 colored = Console()
@@ -26,7 +26,7 @@ _decorator_equal = "\n" + "[dim]=[/dim]" * 95
 
 def get_records(base_dir=None) -> List[str]:
     if base_dir is None:
-        base_dir = Path(__file__).resolve().parents[1]
+        base_dir = Path(__file__).resolve().parents[2]
     return [str(path.absolute()) for path in Path(base_dir).glob("*/catalog/*.json")]
 
 
