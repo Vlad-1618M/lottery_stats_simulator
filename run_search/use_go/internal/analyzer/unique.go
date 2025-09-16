@@ -4,10 +4,9 @@ import (
 	"fmt"
 	"sort"
 	"strings"
-	"time"
 )
 
-// ________ OriginEntry: tracks unique sequences across all catalog files:
+// OriginEntry tracks unique sequences across all catalog/historical files.
 type OriginEntry struct {
 	Game      string   `json:"game"`
 	Primary   []int    `json:"primary"`
@@ -18,7 +17,7 @@ type OriginEntry struct {
 	Files     []string `json:"files"`
 }
 
-// ________ TrackOrigins: indexes all unique combinations of game + primary + bonus:
+// TrackOrigins indexes all unique combinations of game + primary + bonus.
 func TrackOrigins(sequences []Sequence) map[string]*OriginEntry {
 	originMap := make(map[string]*OriginEntry)
 
@@ -47,7 +46,7 @@ func TrackOrigins(sequences []Sequence) map[string]*OriginEntry {
 	return originMap
 }
 
-// ________ UniqToSlice: converts map of origin entries to sorted slice:
+// UniqToSlice converts map of origin entries to a sorted slice.
 func UniqToSlice(originMap map[string]*OriginEntry) []OriginEntry {
 	uniqueList := make([]OriginEntry, 0, len(originMap))
 
@@ -60,7 +59,8 @@ func UniqToSlice(originMap map[string]*OriginEntry) []OriginEntry {
 			return uniqueList[i].Game < uniqueList[j].Game
 		}
 		if uniqueList[i].Count != uniqueList[j].Count {
-			return uniqueList[i].Count < uniqueList[j].Count
+			// sort by descending frequency so most common first
+			return uniqueList[i].Count > uniqueList[j].Count
 		}
 		return joinInts(uniqueList[i].Primary) < joinInts(uniqueList[j].Primary)
 	})
@@ -68,7 +68,7 @@ func UniqToSlice(originMap map[string]*OriginEntry) []OriginEntry {
 	return uniqueList
 }
 
-// ________ makeKey: generates unique string key for game + primary numbers + bonus:
+// makeKey generates a unique string key for game + primary numbers + bonus.
 func makeKey(game string, primary []int, bonus int) string {
 	var builder strings.Builder
 
@@ -88,7 +88,7 @@ func makeKey(game string, primary []int, bonus int) string {
 	return builder.String()
 }
 
-// ________ containsStr: checks if string exists in a slice:
+// containsStr checks if string exists in a slice.
 func containsStr(list []string, target string) bool {
 	for _, value := range list {
 		if value == target {
@@ -98,26 +98,18 @@ func containsStr(list []string, target string) bool {
 	return false
 }
 
-// ________ maxTime: returns the later of two RFC3339 timestamps:
+// maxTime returns the later of two timestamps (RFC3339 or "Jan 2, 2006").
 func maxTime(a, b string) string {
-	timeA, errA := time.Parse(time.RFC3339, a)
-	timeB, errB := time.Parse(time.RFC3339, b)
+	timeA := parseTime(a)
+	timeB := parseTime(b)
 
-	if errA == nil && errB == nil {
-		if timeB.After(timeA) {
-			return b
-		}
-		return a
-	}
-
-	// ________ lexicographical go back condition:
-	if b > a {
+	if timeB.After(timeA) {
 		return b
 	}
 	return a
 }
 
-// ________  joinInts: converts list of integers to a comma-separated string:
+// joinInts converts list of integers to a comma-separated string.
 func joinInts(numbers []int) string {
 	var builder strings.Builder
 

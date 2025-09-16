@@ -14,7 +14,8 @@ type Suggestion struct {
 	Notes    string `json:"notes,omitempty"`
 }
 
-// ________  GenerateSuggestions: creates nPerGame unique sequences per game | using either 'rarest' or 'mixed' logic aka -> strategy:
+// GenerateSuggestions creates nPerGame unique sequences per game,
+// using either "rarest" or "mixed" strategy.
 func GenerateSuggestions(
 	history []Sequence,
 	games map[string]bool,
@@ -29,7 +30,7 @@ func GenerateSuggestions(
 		historyIndex[makeKey(s.Game, s.Primary, s.Bonus)] = true
 	}
 
-	// ________ avoid values from last K draws | optional:
+	// Avoid values from last K draws (if requested)
 	recentValues := map[string]map[int]bool{}
 	if avoidKDraws > 0 {
 		recentValues = buildRecentWindows(history, avoidKDraws)
@@ -63,7 +64,7 @@ func GenerateSuggestions(
 				} else {
 					bonus = freqBonus[0].Number
 				}
-				// ________ avoid recent bonus:
+				// Avoid recent bonus
 				if recent != nil && recent[bonus] {
 					for _, fb := range freqBonus {
 						if !recent[fb.Number] {
@@ -105,11 +106,13 @@ func GenerateSuggestions(
 	return result, perGameCount
 }
 
+// freqPair stores a number and its frequency count.
 type freqPair struct {
 	Number int
 	Count  int
 }
 
+// sortByFrequencyAsc orders numbers from rarest to most frequent.
 func sortByFrequencyAsc(freq map[int]int) []freqPair {
 	out := make([]freqPair, 0, len(freq))
 	for num, count := range freq {
@@ -124,10 +127,12 @@ func sortByFrequencyAsc(freq map[int]int) []freqPair {
 	return out
 }
 
+// requiresBonus checks if a game type includes a bonus number.
 func requiresBonus(game string) bool {
 	return game == "megamillion" || game == "powerball"
 }
 
+// pickPrimary selects primary numbers according to strategy.
 func pickPrimary(pairs []freqPair, count int, banned map[int]bool, useMixed bool) []int {
 	result := []int{}
 	i := 0
@@ -166,7 +171,7 @@ func containsInt(slice []int, target int) bool {
 	return false
 }
 
-// ________ build recent value sets from last K draws per game:
+// buildRecentWindows collects numbers from the last K draws per game.
 func buildRecentWindows(sequences []Sequence, k int) map[string]map[int]bool {
 	gameMap := make(map[string][]Sequence)
 	for _, s := range sequences {
@@ -176,7 +181,9 @@ func buildRecentWindows(sequences []Sequence, k int) map[string]map[int]bool {
 	out := make(map[string]map[int]bool)
 	for game, draws := range gameMap {
 		sort.SliceStable(draws, func(i, j int) bool {
-			return draws[i].Timestamp > draws[j].Timestamp
+			ti := parseTime(draws[i].Timestamp)
+			tj := parseTime(draws[j].Timestamp)
+			return ti.After(tj)
 		})
 
 		if k > len(draws) {

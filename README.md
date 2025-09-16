@@ -180,11 +180,12 @@ The [player](/injectors/players.yml) data and [game](/globs/games.yml) limits ar
 - [File Watcher](/docs/readme_docs/file_watcher_go_utility_readme.md)
 
 ### Python:
-- [Collect Statistics](/docs/readme_docs/collect_statistics_README.md)
-- [Get lotto Draw Results](/docs/readme_docs/get_lotto_results_README.md)
 - [Glob Args](/docs/readme_docs/glob_args_README.md)
 - [Quick Pick](/docs/readme_docs/quickPick_README.md)
 - [User Records](/docs/readme_docs/user_records_README.md)
+- [Collect Statistics](/docs/readme_docs/collect_statistics_README.md)
+- [Get Lotto Draw Results](/docs/readme_docs/get_lotto_results_README.md)
+- [Pull Historical Lotto Draw Results](/docs/readme_docs/historical_lotto_data_readme.md)
 
 ## Automation / Docker Builds:
 - [Dockerfiles](/docs/readme_docs/playwright_based_dockerfile_builds_reademe.md)

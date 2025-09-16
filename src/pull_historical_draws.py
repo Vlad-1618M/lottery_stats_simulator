@@ -117,7 +117,7 @@ class LottoScraper:
                 if attempts % 10 == 0:
                     console.print(f"\n\t{check}\t [white_italic]{str(url).split("/")[-1].upper()}[/white_italic]: [bold magenta]Bulk Page[/bold magenta]: {attempts + 1} [bold]content captured[/bold] {arrow} [bold magenta]processing[/bold magenta] ...")
                 
-                # Capture screenshot for this page
+                # ____ per page screenshot capture:
                 if (screenshot and attempts == 0) or all_screenshots:
                     screenshot_path = self.screenshot_dir / (f"{filename.replace('.json', '')}_page{attempts + 1}.png" if all_screenshots else filename.replace(".json", ".png"))
                     page.screenshot(path=str(screenshot_path), full_page=True)
@@ -209,7 +209,7 @@ class LottoScraper:
         safe = re.sub(r"[^A-Za-z0-9_-]", "_", slug)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M")
         url_hash = hashlib.sha1(url.encode()).hexdigest()[:4]
-        return f"{safe}_{timestamp}_{url_hash}.json"
+        return f"{safe}_history_{timestamp}_{url_hash}.json"
 
     def process_url(self, url, screenshot=False, all_screenshots=False):
         console.print(f"[ [bold yellow]args check[/bold yellow] ]:\t{arrow} [bold white]Screenshot[/bold white]=[bold]{screenshot}[/bold]: [bold white]All Screenshots[/bold white]=[bold]{all_screenshots}[/bold]")

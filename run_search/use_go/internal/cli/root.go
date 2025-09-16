@@ -50,8 +50,19 @@ var rootCmd = &cobra.Command{
 
 		// ________ args cli input check:
 		if len(games) == 0 {
-			red(os.Stderr, "No games selected. Use --games flag.")
-			os.Exit(1)
+			// Default to all known games
+			games = []string{"megamillion", "powerball", "lotto", "luckyday", "pick3", "pick4"}
+			if !noColor {
+				fmt.Fprintf(writer, "%s: no --games provided, defaulting to all (%s)\n",
+					yellow("Notice"),
+					strings.Join(games, ", "),
+				)
+			} else {
+				fmt.Fprintf(writer, "Notice: no --games provided, defaulting to all (%s)\n",
+					strings.Join(games, ", "),
+				)
+			}
+			writer.Flush()
 		}
 
 		if suggestN < 0 {
@@ -192,24 +203,60 @@ var rootCmd = &cobra.Command{
 		// ________  rich-output | optional:
 		if printFreq {
 			fmt.Fprintf(writer, "\n[FREQUENCY MAP]\n")
+
 			for game, gameFreq := range frequencies {
-				countPrimary := 0
-				countBonus := 0
-				if gameFreq.Primary != nil {
-					countPrimary = len(gameFreq.Primary)
-				}
-				if gameFreq.Bonus != nil {
-					countBonus = len(gameFreq.Bonus)
-				}
 				if !noColor {
-					fmt.Fprintf(writer, "  %s → %d primary, %d bonus numbers tracked\n", yellow(strings.ToUpper(game)), countPrimary, countBonus)
+					fmt.Fprintf(writer, "  %s → %d primary values, %d bonus values\n",
+						yellow(strings.ToUpper(game)), gameFreq.TotalPrimary, gameFreq.TotalBonus)
 				} else {
-					fmt.Fprintf(writer, "  %s → %d primary, %d bonus numbers tracked\n", strings.ToUpper(game), countPrimary, countBonus)
+					fmt.Fprintf(writer, "  %s → %d primary values, %d bonus values\n",
+						strings.ToUpper(game), gameFreq.TotalPrimary, gameFreq.TotalBonus)
+				}
+
+				// Show detailed breakdown for primary numbers
+				fmt.Fprintf(writer, "    Primary frequencies:\n")
+				for n, count := range gameFreq.Primary {
+					pct := float64(count) / float64(gameFreq.TotalPrimary) * 100
+
+					// Collect file origins
+					files := []string{}
+					for f, c := range gameFreq.FileOrigins[n] {
+						files = append(files, fmt.Sprintf("%s:%d", f, c))
+					}
+
+					if !noColor {
+						fmt.Fprintf(writer, "      %2d → %3d (%.2f%%) [%s]\n",
+							n, count, pct, strings.Join(files, ", "))
+					} else {
+						fmt.Fprintf(writer, "      %2d → %3d (%.2f%%) [%s]\n",
+							n, count, pct, strings.Join(files, ", "))
+					}
+				}
+
+				// Show detailed breakdown for bonus numbers
+				if len(gameFreq.Bonus) > 0 {
+					fmt.Fprintf(writer, "    Bonus frequencies:\n")
+					for n, count := range gameFreq.Bonus {
+						pct := float64(count) / float64(gameFreq.TotalBonus) * 100
+
+						// Collect bonus file origins
+						files := []string{}
+						for f, c := range gameFreq.BonusOrigins[n] {
+							files = append(files, fmt.Sprintf("%s:%d", f, c))
+						}
+
+						if !noColor {
+							fmt.Fprintf(writer, "      %2d → %3d (%.2f%%) [%s]\n",
+								n, count, pct, strings.Join(files, ", "))
+						} else {
+							fmt.Fprintf(writer, "      %2d → %3d (%.2f%%) [%s]\n",
+								n, count, pct, strings.Join(files, ", "))
+						}
+					}
 				}
 				writer.Flush()
 			}
 		}
-
 		if printUniques {
 			if !noColor {
 				fmt.Fprintf(writer, "\n[UNIQUES] %s: %d\n", green("Total unique sequences"), len(uniqueSequences))
@@ -292,13 +339,13 @@ func init() {
 	rootCmd.Flags().StringVar(&exportDir, "export-dir", "analytics", "Directory to write analysis output")
 	rootCmd.Flags().StringVar(&exportName, "export-json", "", "Output JSON file name (default: timestamped)")
 
-	rootCmd.Flags().StringSliceVar(&games, "games", []string{}, "Comma-separated list of games to analyze (required)")
+	rootCmd.Flags().StringSliceVar(&games, "games", []string{}, "Comma-separated list of games to analyze (default: all)")
 	rootCmd.Flags().IntVar(&suggestN, "suggest", 5, "Number of suggested sequences per game")
 	rootCmd.Flags().StringVar(&strategy, "strategy", "rarest", "Suggestion strategy: rarest | mixed")
 	rootCmd.Flags().IntVar(&avoidLatest, "avoid-latest", 0, "Avoid numbers seen in last K draws")
 
 	rootCmd.Flags().BoolVar(&printAll, "print-all", false, "Print all results (frequencies, uniques, suggestions)")
-	rootCmd.Flags().BoolVar(&printFreq, "print-freq", false, "Print frequency tables")
+	rootCmd.Flags().BoolVar(&printFreq, "print-freq", false, "Print frequency tables with percentages")
 	rootCmd.Flags().BoolVar(&printUniques, "print-uniques", false, "Print unique sequences")
 	rootCmd.Flags().BoolVar(&printSugs, "print-suggestions", false, "Print suggestions")
 	rootCmd.Flags().BoolVar(&noColor, "no-color", false, "Disable colored terminal output")
