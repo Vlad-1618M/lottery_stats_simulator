@@ -59,7 +59,7 @@ class LottoScraper:
             p = sync_playwright().start()
             self.browser_instance = p.chromium.launch(
                 headless=headless,
-                channel="chrome",
+                # channel="chrome",
                 slow_mo=1000 if not headless else 0,
                 args=['--disable-blink-features=AutomationControlled']
             )

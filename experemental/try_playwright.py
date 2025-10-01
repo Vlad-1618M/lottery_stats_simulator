@@ -209,7 +209,7 @@ def replay_mode(yaml_file: str, slower: int = 0, scroll: int = 3000):
 
 # ____________________ arg parsers:
 def parse_time(value: str) -> int:
-    # ___ human-friendly time conversions to milliseconds (500, 5s, 2m):
+    # ___ human readble time conversions to milliseconds (500, 5s, 2m):
     value = str(value).strip().lower()
     if value.endswith("ms"):
         return int(value[:-2])
@@ -222,7 +222,7 @@ def parse_time(value: str) -> int:
 
 
 def parse_size(value: str) -> int:
-    # ___ human-friendly px size conversions (3000, 5k):
+    # ___ human readble px size conversions (3000, 5k):
     value = str(value).strip().lower()
     if value.endswith("k"):
         return int(float(value[:-1]) * 1000)

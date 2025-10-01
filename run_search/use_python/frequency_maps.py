@@ -186,5 +186,5 @@ def main(dev_debug_path="./_dev_debug/vertical_freq_summary.json", show_runtime:
 
 
 if __name__ == "__main__":
-    main(show_runtime=True)
-    # main()
+    # main(show_runtime=True)
+    main()

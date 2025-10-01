@@ -17,8 +17,7 @@ import frequency_maps
 colored = Console()
 
 # _____ Compare Logic:
-def compare_sequence_to_draws(
-        input_sequence: List[int], game: str, sequence_key: str, records: List[dict], match_type: str = "exact", debug: bool = False,) -> List[dict]:
+def compare_sequence_to_draws(input_sequence: List[int], game: str, sequence_key: str, records: List[dict], match_type: str = "exact", debug: bool = False,) -> List[dict]:
     matches = []
     input_set = set(input_sequence)
     job_pointer = "[bold]→[/bold] "
