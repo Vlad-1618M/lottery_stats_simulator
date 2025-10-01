@@ -170,12 +170,12 @@ py_main(){
   # generate_decorator
   job "PYTHON DEMO:" "--- REPO DEMO ---:"
   # ____________________________________________________________________________
-  # job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method:"
-  # run_python "src/quickPick.py" "--sieve"
-  # job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Spanish:"
-  # run_python "src/quickPick.py" "--sieve" "--lang" "es"
-  # job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Chinese(traditional):"
-  # run_python "src/quickPick.py" "--sieve" "--lang" "zh-TW"
+  job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method:"
+  run_python "src/quickPick.py" "--sieve"
+  job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Spanish:"
+  run_python "src/quickPick.py" "--sieve" "--lang" "es"
+  job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Chinese(traditional):"
+  run_python "src/quickPick.py" "--sieve" "--lang" "zh-TW"
   # job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Hindi:"
   # run_python "src/quickPick.py" "--sieve" "--lang" "hi"
   # job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Hebrew:"
@@ -208,8 +208,8 @@ py_main(){
   generate_decorator
   job "PYTHON Catalogs" "Show Existing Catalog Details:"
   run_python "/lotto/src/bulk_records_view.py" "--items"
-  run_python "/lotto/src/bulk_records_view.py" "--show-ids"
-  run_python "/lotto/src/bulk_records_view.py" "--show-details"
+  # run_python "/lotto/src/bulk_records_view.py" "--show-ids"
+  # run_python "/lotto/src/bulk_records_view.py" "--show-details"
   
   # ____________________________________________________________________________
   generate_decorator
