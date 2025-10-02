@@ -171,24 +171,27 @@ The [player](/injectors/players.yml) data and [game](/globs/games.yml) limits ar
 
 
 ### Math Modules:
-- [Number Generator](/docs/readme_docs/number_generator_README.md)
-- [Lottery Payout Calculator](/docs/readme_docs/lottery_payout_calculator_README.md)
-- [Sieve of Eratosthenes](/docs/readme_docs/Sieve_of_Eratosthenes_README.md)
+- [Number Generator](/docs/readme_docs/number_generator_README.md):
+- [Lottery Payout Calculator](/docs/readme_docs/lottery_payout_calculator_README.md):
+- [Sieve of Eratosthenes](/docs/readme_docs/Sieve_of_Eratosthenes_README.md):
 
 ### Go:
-- [Sequence Comparator](/docs/readme_docs/sequence_comparator_main_go_readme.md)
-- [File Watcher](/docs/readme_docs/file_watcher_go_utility_readme.md)
+- [Sequence Comparator](/docs/readme_docs/sequence_comparator_main_go_readme.md):
+- [File Watcher](/docs/readme_docs/file_watcher_go_utility_readme.md):
+- [Statistics](/docs/readme_docs/statistics_go_based_tool.md):
 
 ### Python:
-- [Collect Statistics](/docs/readme_docs/collect_statistics_README.md)
-- [Get lotto Draw Results](/docs/readme_docs/get_lotto_results_README.md)
-- [Glob Args](/docs/readme_docs/glob_args_README.md)
-- [Quick Pick](/docs/readme_docs/quickPick_README.md)
-- [User Records](/docs/readme_docs/user_records_README.md)
+- [Statistics](/docs/readme_docs/statistics_python_based_tool.md):
+- [Glob Args](/docs/readme_docs/glob_args_README.md):
+- [Quick Pick](/docs/readme_docs/quickPick_README.md):
+- [User Records](/docs/readme_docs/user_records_README.md):
+- [Collect Statistics](/docs/readme_docs/collect_statistics_README.md):
+- [Get Lotto Draw Results](/docs/readme_docs/get_lotto_results_README.md):
+- [Pull Historical Lotto Draw Results](/docs/readme_docs/historical_lotto_data_readme.md):
 
 ## Automation / Docker Builds:
-- [Dockerfiles](/docs/readme_docs/playwright_based_dockerfile_builds_reademe.md)
-- [Orchestration](/docs/readme_docs/orchestration_plus_sidecar_reademe.md)
+- [Dockerfiles](/docs/readme_docs/playwright_based_dockerfile_builds_reademe.md):
+- [Orchestration](/docs/readme_docs/orchestration_plus_sidecar_reademe.md):
 
 ---
 * ***GitHub did not like my `.mp4` uploads***:

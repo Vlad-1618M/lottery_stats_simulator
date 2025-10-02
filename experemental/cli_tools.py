@@ -56,7 +56,6 @@ def date_gen_load(limit, out=False):
 if __name__ == "__main__":
     # date_gen_load(limit=2, out=True)
     date_gen_load(limit=3, out=False)
-    # perf_stats(games(player="natata", language_catalog=False, csv_file=False, md_file=False), "gamerecs.prof", open_viz=False)
+    # perf_stats(games(player="ghost", language_catalog=False, csv_file=False, md_file=False), "gamerecs.prof", open_viz=False)
     # perf_stats(t, "gamerecs.prof", open_viz=False)
     # perf_stats(main(player="", language_catalog=False, csv_file=False, md_file=False), "gamerecs.prof", open_viz=True)
-    # perf_stats(lambda: your_function(arg1, arg2), "output.prof")

@@ -6,6 +6,10 @@
 .logs
 lotto_draw_results
 lotto_screenshots
+*_lotto_draw_results
+*_lotto_screenshots
+_mapped_dom_dump
+
 lottery_catalog
 go_compiled
 ffmpeg_compressor.sh
@@ -27,6 +31,8 @@ December-*
 .trashed
 _manim_lib
 _blender
+_dev_debug
+analytics
 search_open.sh
 
 # Byte-compiled / optimized / DLL files

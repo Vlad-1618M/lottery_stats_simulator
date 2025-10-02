@@ -10,6 +10,6 @@ def get_games_catalog(cfg_path=None) -> dict:
     with game_settings.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
-# if __name__ == "__main__":
-#     pass
-    # [print(_) for _ in get_games_catalog(cfg_path=None).items()]
+if __name__ == "__main__":
+    [print(_) for _ in get_games_catalog(cfg_path=None).items()]
+    # pass

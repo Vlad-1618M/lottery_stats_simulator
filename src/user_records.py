@@ -12,7 +12,6 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 from injectors.render_translit import AutoTranslator as disenchant
 from src import glob_args
 
-# from experemental import themed_decorator as thought
 colored = Console()
 
 

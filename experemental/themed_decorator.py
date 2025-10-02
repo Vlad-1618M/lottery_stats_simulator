@@ -87,7 +87,7 @@ if __name__ == "__main__":
     # pass
     lib = Figlet()
     fonts = lib.getFonts()
-    preview(slow=(True, 1), preview_rate=1, text_in_preview="Catalog")
+    preview(slow=(True, 1), preview_rate=1, text_in_preview="Hello World")
     
     # preview(preview_rate=1, text_in_preview="Catalog")
     # pkgs = ["rich", "pyfiglet"]

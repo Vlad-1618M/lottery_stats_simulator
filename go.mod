@@ -1,12 +1,10 @@
-module matcher
+module src_for_go
 
 go 1.24.4
 
 require (
 	github.com/fatih/color v1.18.0
-	github.com/fsnotify/fsnotify v1.9.0
 	github.com/mattn/go-runewidth v0.0.16
-	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (

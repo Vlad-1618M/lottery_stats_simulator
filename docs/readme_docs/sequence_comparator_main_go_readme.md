@@ -51,8 +51,8 @@ go run src_for_go/main.go --summary-only
 ```
 
 ### NOTEs on Test Data & Data Structure:
->- The [python code](../src/quickPick.py) will generate enough fresh data: see [python src](../src) for more info:
->- The [Data Sets](../July-2025/catalog/) are in `catalog` path under each of its parent ( tagged by the e.g [timestampt](../July-2025/)) <br>
+>- The [quickPick.py](/src/quickPick.py) will generate enough fresh data: see [python src](/src/) for more info:
+>- The data-sets are in `/catalog` sub dir under each of its parent ( tagged by the e.g ___`/July-2025/`___ timestampt) <br>
 ```python
 def save_selection(name: str, game: str, numbers: dict):
     timestamp = datetime.datetime.now().isoformat()

@@ -59,6 +59,29 @@ installed_playwright_deps() {
   fi
 }
 
+chrome_install() {
+  if command -v google-chrome >/dev/null 2>&1; then
+    job debug "Google Chrome already installed → $(google-chrome --version)"
+    return
+  fi
+
+  job warn "Google Chrome not found, installing…"
+
+  apt-get update && \
+  apt-get install -y wget gnupg ca-certificates && \
+  wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/google-linux.gpg && \
+  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-linux.gpg] http://dl.google.com/linux/chrome/deb/ stable main" \
+    > /etc/apt/sources.list.d/google-chrome.list && \
+  apt-get update && \
+  apt-get install -y --no-install-recommends google-chrome-stable && \
+  rm -rf /var/lib/apt/lists/*
+
+  if command -v google-chrome >/dev/null 2>&1; then
+    job debug "Installed Google Chrome → $(google-chrome --version)"
+  else
+    job error "Google Chrome installation failed!"
+  fi
+}
 
 deps_check() {
   job debug "System PATH:"
@@ -83,6 +106,7 @@ deps_check() {
   else
     job error "Go not found!"
   fi
+  chrome_install
   installed_playwright_deps
 }
 
@@ -143,13 +167,15 @@ py_main(){
     job error "No valid Python interpreter found:"
     exit 1
   fi
-  generate_decorator
+  # generate_decorator
+  job "PYTHON DEMO:" "--- REPO DEMO ---:"
+  # ____________________________________________________________________________
   job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method:"
   run_python "src/quickPick.py" "--sieve"
   job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Spanish:"
   run_python "src/quickPick.py" "--sieve" "--lang" "es"
-  # job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Chinese(traditional):"
-  # run_python "src/quickPick.py" "--sieve" "--lang" "zh-TW"
+  job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Chinese(traditional):"
+  run_python "src/quickPick.py" "--sieve" "--lang" "zh-TW"
   # job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Hindi:"
   # run_python "src/quickPick.py" "--sieve" "--lang" "hi"
   # job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Hebrew:"
@@ -162,25 +188,47 @@ py_main(){
   # run_python "src/quickPick.py" "--sieve" "--lang" "hy"
   # job "PYTHON Sieve Method" "Sieve of Eratosthenes Calculation Method in Japanese:"
   # run_python "src/quickPick.py" "--sieve" "--lang" "ja"
-
+  
+  # ____________________________________________________________________________
   generate_decorator
-  job "PYTHON Collect" "Collect Recent Draw Results + Screenshots:"
+  job "PYTHON Get Historic Draw Results:" "Collect Historic Draw Results + Screenshots:"
+  run_python "src/pull_historical_draws.py" "--all-shots"
+  
+  # ____________________________________________________________________________
+  generate_decorator
+  job "PYTHON Get Recent Draw Results" "Collect Recent Draw Results + Screenshots:"
   run_python "/lotto/src/get_lotto_results.py" "--shots"
+  
+  # ____________________________________________________________________________
   generate_decorator
   job "PYTHON Catalog" "Create Player's Catalog | All Users JSON datasets:"
   run_python "/lotto/src/quickPick.py" "--auto" "--all-names"
+  
+  # ____________________________________________________________________________
+  generate_decorator
+  job "PYTHON Catalogs" "Show Existing Catalog Details:"
+  run_python "/lotto/src/bulk_records_view.py" "--items"
+  # run_python "/lotto/src/bulk_records_view.py" "--show-ids"
+  # run_python "/lotto/src/bulk_records_view.py" "--show-details"
+  
+  # ____________________________________________________________________________
   generate_decorator
   job "PYTHON Analytics" "Lotto Sequence Analytics Scripts:"
   run_python "/lotto/src/collect_statistics.py" "--list"
   run_python "/lotto/src/collect_statistics.py" "--games" "megamillion" "--save-html"
   run_python "/lotto/src/collect_statistics.py" "--games" "powerball" "--save-html"
   run_python "/lotto/src/collect_statistics.py" "--games" "powerball" "megamillion" "--save-html"
+
+  # ____________________________________________________________________________
   generate_decorator
-  job "PYTHON Catalogs" "Show Existing Catalog Details:"
-  run_python "/lotto/src/bulk_records_view.py" "--items"
-  run_python "/lotto/src/bulk_records_view.py" "--show-ids"
-  run_python "/lotto/src/bulk_records_view.py" "--show-details"
-  generate_decorator  
+  job "PYTHON Analytics" "Lotto Sequence to Draws Compare Scripts:"
+  run_python "/lotto/run_search/use_python/compare_sequence_to_draws.py" "--all-games" "--show-loaded"
+  
+  # ____________________________________________________________________________
+  generate_decorator
+  job "PYTHON Analytics" "Lotto Sequence Suggestions Scripts:"
+  run_python "/lotto/run_search/use_python/generate_suggestions.py" 
+  
 }
 
 go_main(){
